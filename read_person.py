@@ -30,19 +30,30 @@ def shortlist(text, k=K):
         RETURN s.name AS strength, s.title AS title, d.name AS domain, fit, l.text AS lack, b.text AS balanced, e.text AS excess
         ORDER BY fit DESC""", {"q": q}))
 
+RICH = os.environ.get("BEZEN_RICH") == "1"
+PROFILE = {}
+if RICH:  # full strength profile from the graph's anchors: how the person thinks, feels and acts
+    for r in rows(db.execute("""MATCH (s:Strength)-[:ANCHOR]->(a:Anchor)
+                                WHERE NOT a.section IN ['lack', 'balanced', 'excess']
+                                RETURN s.name AS s, a.section AS sec, collect(a.text) AS t""")):
+        PROFILE.setdefault(r["s"], []).append(f"{r['sec']}: " + "; ".join(r["t"]))
+
 def decide(text, cands):
     key = os.environ.get("ANTHROPIC_API_KEY")
     if not key:
         return None
     import urllib.request
-    menu = "\n".join(f"- {c['strength']}: lack \"{c['lack']}\" | balanced \"{c['balanced']}\" | excess \"{c['excess']}\"" for c in cands)
+    menu = "\n".join(
+        f"- {c['strength']}: lack \"{c['lack']}\" | balanced \"{c['balanced']}\" | excess \"{c['excess']}\""
+        + ("\n    " + "\n    ".join(PROFILE.get(c["strength"], [])) if RICH else "")
+        for c in cands)
     prompt = (f"A person wrote:\n\"{text}\"\n\nCandidate strengths, each with three states:\n{menu}\n\n"
               "Pick ONE strength from the list and its state (lack, balanced or excess) that best explains what is "
               "really going on for this person. Quote the exact words from their message that show it. "
               'Answer only JSON: {"strength": "...", "state": "...", "quote": "...", "why": "one short sentence"}')
     req = urllib.request.Request("https://api.anthropic.com/v1/messages", method="POST",
         headers={"x-api-key": key, "anthropic-version": "2023-06-01", "content-type": "application/json"},
-        data=json.dumps({"model": os.environ.get("BEZEN_LLM", "claude-haiku-5-5"), "max_tokens": 1000,
+        data=json.dumps({"model": os.environ.get("BEZEN_LLM", "claude-haiku-5-5"), "max_tokens": 3000,
                          "messages": [{"role": "user", "content": prompt}]}).encode())
     resp = json.loads(urllib.request.urlopen(req, timeout=60).read())
     out = next((b["text"] for b in resp.get("content", []) if b.get("type") == "text"), None)

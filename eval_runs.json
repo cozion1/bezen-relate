@@ -1,0 +1,17 @@
+[
+ {"date": "2026-11-16", "set": "10 paraphrased (hand-written)", "n": 10, "method": "trigram, sentences only", "model": "-", "strength": 0.2, "state": 0.2, "quotes": null, "note": "word overlap does not understand meaning"},
+ {"date": "2026-11-16", "set": "10 paraphrased (hand-written)", "n": 10, "method": "trigram, full profile", "model": "-", "strength": 0.1, "state": 0.1, "quotes": null, "note": ""},
+ {"date": "2026-11-16", "set": "10 paraphrased (hand-written)", "n": 10, "method": "vector, one per state", "model": "MiniLM (local)", "strength": 0.3, "state": 0.2, "quotes": null, "note": ""},
+ {"date": "2026-11-16", "set": "10 paraphrased (hand-written)", "n": 10, "method": "vector anchors", "model": "MiniLM (local)", "strength": 0.6, "state": 0.5, "quotes": null, "note": "every line of the strength note is an anchor"},
+ {"date": "2026-11-16", "set": "10 paraphrased (hand-written)", "n": 10, "method": "vector anchors", "model": "potion 128M (local)", "strength": 0.2, "state": 0.2, "quotes": null, "note": ""},
+ {"date": "2026-11-16", "set": "10 paraphrased (hand-written)", "n": 10, "method": "vector anchors", "model": "mpnet (local)", "strength": 0.6, "state": 0.4, "quotes": null, "note": "bigger model, no gain"},
+ {"date": "2026-11-16", "set": "10 paraphrased (hand-written)", "n": 10, "method": "graph shortlist 5 + agent", "model": "Haiku", "strength": 0.8, "state": 0.8, "quotes": 1.0, "note": "misses only when the right strength was not in the shortlist"},
+ {"date": "2026-11-16", "set": "10 paraphrased (hand-written)", "n": 10, "method": "graph shortlist 8 + agent", "model": "Haiku", "strength": 1.0, "state": 1.0, "quotes": 1.0, "note": "small set: luck, see the 288 runs"},
+ {"date": "2026-11-16", "set": "288 generated (Sonnet), 3 per state", "n": 288, "method": "graph shortlist 8 + agent", "model": "Haiku", "strength": 0.49, "state": 0.48, "quotes": 0.99, "note": "shortlist had the right strength only 55%"},
+ {"date": "2026-11-16", "set": "288 generated (Sonnet), 3 per state", "n": 288, "method": "graph shortlist 16 + agent", "model": "Haiku", "strength": 0.66, "state": 0.65, "quotes": 0.99, "note": ""},
+ {"date": "2026-11-16", "set": "288 generated (Sonnet), 3 per state", "n": 288, "method": "all 32 strengths + agent", "model": "Haiku", "strength": 0.78, "state": 0.77, "quotes": 0.99, "note": ""},
+ {"date": "2026-11-16", "set": "288 generated (Sonnet), 3 per state", "n": 288, "method": "all 32 + full profile + agent", "model": "Haiku", "strength": 0.77, "state": 0.76, "quotes": 0.98, "note": "6 replies cut off; profile did not help Haiku"},
+ {"date": "2026-11-16", "set": "288 generated (Sonnet), 3 per state", "n": 288, "method": "all 32 strengths + agent", "model": "Sonnet", "strength": 0.84, "state": 0.83, "quotes": 0.99, "note": "lack is hardest: 76%"},
+ {"date": "2026-11-16", "set": "288 generated (Sonnet), 3 per state", "n": 288, "method": "all 32 + full profile + agent", "model": "Sonnet", "strength": 0.85, "state": 0.84, "quotes": 0.99, "note": "best so far. Main confusion: Deep Thinker vs Careful"},
+ {"date": "2026-11-16", "set": "1,497 private corpus examples (local only)", "n": 1497, "method": "vector leave-one-out, 499 patterns", "model": "MiniLM (local)", "strength": 0.32, "state": null, "quotes": null, "note": "pattern @1 11%, @5 30%, @20 49%; axis 31%. Chance: pattern 0.2%"}
+]
