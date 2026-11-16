@@ -1,0 +1,3 @@
+# balanced
+
+The golden path.
