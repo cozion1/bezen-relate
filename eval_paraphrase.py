@@ -3,18 +3,7 @@
 # Usage: python eval_paraphrase.py [graph file] [matcher: trigram|vector]
 import sys, importlib
 
-CASES = [
-    ("שוב הסכמתי לעזור לכולם בסוף השבוע, ועכשיו אין לי כוח לכלום. למה אני לא מסרב?", "Dependable", "excess"),
-    ("שמישהו אחר יטפל בהזמנה, זה לא התפקיד שלי.", "Dependable", "lack"),
-    ("הזזתם לי את הפגישה בעשר דקות וכל היום שלי התפרק.", "Order", "excess"),
-    ("אצלי הכל בבלגן, אין סדר בניירת ואני לא מוצא כלום.", "Order", "lack"),
-    ("אני יושב מול המשימה כבר שבוע ולא מזיז אצבע.", "Starter", "lack"),
-    ("אני כבר באמצע העבודה, ואתם עדיין מדברים על תכנון?", "Starter", "excess"),
-    ("כשהחברה שלי עצובה, אני נשאר שבור יומיים אחריה.", "Heart Reader", "excess"),
-    ("לא אכפת לי מה העובדים מרגישים, שיביאו תוצאות.", "Heart Reader", "lack"),
-    ("נכנסתי לישיבה ונתתי לכולם הוראות, גם למי שלא עובד אצלי.", "Take-Charge", "excess"),
-    ("בדקתי שלוש פעמים ועדיין לא שלחתי, אולי יש טעות.", "Careful", "excess"),
-]
+from eval_paraphrase_cases import CASES
 
 DB = sys.argv[1] if len(sys.argv) > 1 else "bezen.rl"
 mode = sys.argv[2] if len(sys.argv) > 2 else "trigram"
