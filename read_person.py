@@ -9,14 +9,17 @@ from fastembed import TextEmbedding
 TEXT = sys.argv[1]
 DB = sys.argv[2] if len(sys.argv) > 2 else "bezen.rl"
 MODEL = os.environ.get("BEZEN_MODEL", "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2")
-K = int(os.environ.get("BEZEN_K", "8"))
+K = int(os.environ.get("BEZEN_K", "32"))
 db = relate.Database(DB)
 rows = lambda r: r.data() if callable(r.data) else r.data
 
+_model = None
 def shortlist(text, k=K):
-    q = [float(x) for x in next(TextEmbedding(MODEL).embed([text]))]
+    global _model
+    _model = _model or TextEmbedding(MODEL)
+    q = [float(x) for x in next(_model.embed([text]))]
     return rows(db.execute(f"""
-        CALL db.index.vector.queryNodes("anchor_vec", 60, vector($q, {len(q)}, FLOAT32)) YIELD node, score
+        CALL db.index.vector.queryNodes("anchor_vec", {max(60, k * 25)}, vector($q, {len(q)}, FLOAT32)) YIELD node, score
         MATCH (s:Strength)-[:ANCHOR]->(node)
         WITH s, score ORDER BY score DESC
         WITH s, collect(score)[0..3] AS top
