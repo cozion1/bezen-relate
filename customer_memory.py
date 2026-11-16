@@ -31,6 +31,10 @@ def read(text):
                 best = (score, r["s"], state.lower(), r["t"])
     return best
 
+if "--meaning" in sys.argv:  # meaning-based matcher (local model), see match_anchors.py
+    import match_anchors
+    read = match_anchors.read
+
 db.execute("MATCH (m:Message) DETACH DELETE m")
 db.execute("MATCH (p:Person) DETACH DELETE p")
 for who, day, text in MESSAGES:
