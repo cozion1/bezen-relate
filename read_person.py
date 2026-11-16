@@ -9,7 +9,7 @@ from fastembed import TextEmbedding
 TEXT = sys.argv[1]
 DB = sys.argv[2] if len(sys.argv) > 2 else "bezen.rl"
 MODEL = os.environ.get("BEZEN_MODEL", "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2")
-K = int(os.environ.get("BEZEN_K", "5"))
+K = int(os.environ.get("BEZEN_K", "8"))
 db = relate.Database(DB)
 rows = lambda r: r.data() if callable(r.data) else r.data
 
@@ -39,10 +39,16 @@ def decide(text, cands):
               'Answer only JSON: {"strength": "...", "state": "...", "quote": "...", "why": "one short sentence"}')
     req = urllib.request.Request("https://api.anthropic.com/v1/messages", method="POST",
         headers={"x-api-key": key, "anthropic-version": "2023-06-01", "content-type": "application/json"},
-        data=json.dumps({"model": os.environ.get("BEZEN_LLM", "claude-haiku-5-5"), "max_tokens": 300,
+        data=json.dumps({"model": os.environ.get("BEZEN_LLM", "claude-haiku-5-5"), "max_tokens": 1000,
                          "messages": [{"role": "user", "content": prompt}]}).encode())
-    out = json.loads(urllib.request.urlopen(req, timeout=60).read())["content"][0]["text"]
-    ans = json.loads(re.search(r"\{.*\}", out, re.S).group(0))
+    resp = json.loads(urllib.request.urlopen(req, timeout=60).read())
+    out = next((b["text"] for b in resp.get("content", []) if b.get("type") == "text"), None)
+    if out is None:
+        raise RuntimeError(f"no text in reply: {[b.get('type') for b in resp.get('content', [])]} stop={resp.get('stop_reason')}")
+    m = re.search(r"\{.*\}", out, re.S)
+    if not m:
+        raise RuntimeError(f"no JSON in reply (stop={resp.get('stop_reason')}): {out[:300]}")
+    ans = json.loads(m.group(0))
     ans["quote_verified"] = ans.get("quote", "") in text            # exact quote, checked in code
     ans["in_shortlist"] = ans.get("strength") in [c["strength"] for c in cands]
     return ans
