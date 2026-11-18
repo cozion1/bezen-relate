@@ -1,12 +1,20 @@
-# BEZEN on Relate: a graph memory of what a person keeps coming back to
+# BEZEN on Relate
+
+A graph memory of the trait a person keeps coming back to, and in which state (lack, balanced, excess), across messages.
+
+## Use case
 
 Agents remember facts. They don't remember the person.
 
 A customer writes on Monday *"I can't decide without a full analysis, send me all the data"*, on Wednesday *"I still have no data, so I can't take any position"*, and on Friday *"partial info is fine, just tell me what's missing"*. Three messages that look unrelated. In a graph they are one path: the same trait (Evidence Seeker), moving from **excess** to **lack** to **balance**. An agent that sees that path answers the person, not the sentence.
 
-This project uses **Relate**, Neo4j's embedded graph database, as that memory.
+The relationships that matter: person → message → trait → state → the balanced next sentence. This project uses **Relate**, Neo4j's embedded graph database, as that memory.
 
-## What it does
+## How it uses Relate
+
+- **Mode: single file** (`bezen.rl`).
+- **Why this mode:** a person's memory should travel with the agent that serves them, like a document. One file can be copied, backed up, or kept on the user's own machine, and BEZEN's private pattern library runs the same way locally, with no server.
+- **What the graph models:**
 
 ```
             sample_vault/  (Obsidian vault: 32 traits × lack / balanced / excess)
@@ -28,7 +36,9 @@ This project uses **Relate**, Neo4j's embedded graph database, as that memory.
    - Step 2, an agent (optional, needs `ANTHROPIC_API_KEY`): picks one trait and its state from the graph's candidates and must quote the person's own words; **the quote is checked in code** against the message.
 4. **Memory of a person** (`customer_memory.py`). Each message is stored as `(:Person)-[:WROTE]->(:Message)-[:READS_AS {state}]->(:Trait)`, and one Cypher query answers: across everything this person said, which trait keeps showing, in which states, and what is the balanced next sentence.
 
-## Run it
+## Setup and run
+
+Prerequisites: Python 3.10+.
 
 ```bash
 pip install -r requirements.txt
@@ -49,11 +59,9 @@ What keeps coming back, and the next helpful sentence:
   Dana: Evidence Seeker [Thinking], 3 messages, states ['balanced', 'lack', 'excess']
 ```
 
-## How it uses Relate
+## Where the data lives
 
-**Mode: single file.** The whole memory lives in one Relate file, `bezen.rl`, at the repo root. It is committed, so judges can open it without running anything: traits, domains, sentences, 705 anchors with the vector index, and Dana's three messages with their readings. `python demo.py` rebuilds it from `sample_vault/`.
-
-Why single file: a person's memory should travel with the agent that serves them, like a document. One file can be copied, backed up, or kept on the user's own machine, and the private pattern library runs the same way locally without a server.
+`bezen.rl` at the repo root: the whole memory in one Relate file, committed so it can be opened without running anything. It holds the 32 traits, their domains and sentences, 705 anchors with the vector index, and Dana's three messages with their readings. `python demo.py` rebuilds it from `sample_vault/`.
 
 ## How well it reads — measured, not claimed
 
