@@ -69,8 +69,8 @@ def decide(text, cands):
 
 if __name__ == "__main__":
     cands = shortlist(TEXT)
-    print("Shortlist from the graph:")
-    for c in cands:
+    print(f"Closest strengths from the graph (top 8 of {len(cands)} sent to the agent):")
+    for c in cands[:8]:
         print(f"  {c['fit']:.2f}  {c['strength']:<16} [{c['domain']}]")
     ans = decide(TEXT, cands)
     print("\nAgent decision:", json.dumps(ans, ensure_ascii=False) if ans else "(no ANTHROPIC_API_KEY set: shortlist only)")

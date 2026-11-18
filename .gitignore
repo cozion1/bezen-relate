@@ -1,2 +1,9 @@
 *.rl
 __pycache__/
+# private or bulky working files (kept local only)
+eval_runs.json
+eval_jev*.json
+eval_jev.py
+sentences_raw.json
+sentences_v1_old_structure.json
+*.rl

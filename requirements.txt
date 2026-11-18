@@ -1,0 +1,4 @@
+relate-db>=1.0.1
+fastembed>=0.9
+numpy
+requests
