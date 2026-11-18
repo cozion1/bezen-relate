@@ -1,13 +1,13 @@
-# One agent per balanced strength. For each of the six dimensions (thoughts, emotions, sensations,
+# One agent per balanced trait. For each of the six dimensions (thoughts, emotions, sensations,
 # complex behaviors, limiting beliefs, blockers) it asks a model for HELPFUL sentences (the balanced
 # state), and for EACH helpful sentence several "needs improvement" sentences on the lack side and
 # on the excess side. Every loaded sentence keeps a link to the helpful sentence it belongs to.
-# Output: sentences_raw.json  [{id, strength, dimension, kind: helpful|loaded, state: balanced|lack|excess,
+# Output: sentences_raw.json  [{id, trait, dimension, kind: helpful|loaded, state: balanced|lack|excess,
 #                              text, helpful_id, model}]
 # Needs ANTHROPIC_API_KEY. Usage: python sentence_agents.py [models comma separated]
 import json, os, re, sys, urllib.request, concurrent.futures as cf
 
-VAULT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "sample_vault", "strengths")
+VAULT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "sample_vault", "traits")
 MODELS = (sys.argv[1] if len(sys.argv) > 1 else "claude-haiku-5-5,claude-sonnet-5-5,claude-opus-5-5").split(",")
 HELPFUL = int(os.environ.get("HELPFUL", "3"))     # helpful sentences per dimension
 LOADED = int(os.environ.get("LOADED", "3"))       # lack sentences AND excess sentences per helpful sentence
@@ -25,12 +25,12 @@ def agent(job):
     name, model = job
     note = open(os.path.join(VAULT, name + ".md"), encoding="utf-8").read()
     dims = "; ".join(f"{k} ({v})" for k, v in DIMENSIONS.items())
-    prompt = (f"You are the sentence collector for one balanced human strength. Its description:\n\n{note}\n\n"
+    prompt = (f"You are the sentence collector for one balanced human trait. Its description:\n\n{note}\n\n"
               f"For EACH of the six dimensions: {dims}\n"
-              f"write {HELPFUL} different HELPFUL sentences: what a person says, in the first person, when this strength "
+              f"write {HELPFUL} different HELPFUL sentences: what a person says, in the first person, when this trait "
               "is balanced in that dimension (the golden path).\n"
               f"For EACH helpful sentence, write {LOADED} 'needs improvement' sentences on the LACK side (too little of the "
-              f"strength) and {LOADED} on the EXCESS side (too much of it), each one a version of the same situation as its helpful sentence.\n"
+              f"trait) and {LOADED} on the EXCESS side (too much of it), each one a version of the same situation as its helpful sentence.\n"
               "All in natural, everyday Israeli Hebrew, as people really say them (work, home, family, school, shopping, health). "
               "One sentence each. Vary the wording; do not copy sentences from the description.\n"
               'Answer only JSON: {"thoughts": [{"helpful": "...", "lack": ["..."], "excess": ["..."]}, ...], "emotions": [...], ...}')
@@ -46,12 +46,12 @@ def agent(job):
             if not isinstance(item, dict) or not item.get("helpful"):
                 continue
             hid = f"{name}|{dim}|{short}|{i}"
-            rows.append({"id": hid, "strength": name, "dimension": dim, "kind": "helpful", "state": "balanced",
+            rows.append({"id": hid, "trait": name, "dimension": dim, "kind": "helpful", "state": "balanced",
                          "text": item["helpful"].strip(), "helpful_id": hid, "model": model})
             for st in ("lack", "excess"):
                 for j, t in enumerate(item.get(st) or []):
                     if isinstance(t, str) and t.strip():
-                        rows.append({"id": f"{hid}|{st}|{j}", "strength": name, "dimension": dim, "kind": "loaded",
+                        rows.append({"id": f"{hid}|{st}|{j}", "trait": name, "dimension": dim, "kind": "loaded",
                                      "state": st, "text": t.strip(), "helpful_id": hid, "model": model})
     print(f"  {name:<16} {short:<7} {len(rows)}", flush=True)
     return rows

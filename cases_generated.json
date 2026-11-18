@@ -1,1729 +1,1729 @@
 [
  {
   "text": "תחליטו אתם איפה עושים את סיום השנה בצוות, אני כבר לא מתערב בזה, מה שיצא יצא.",
-  "strength": "Bridge Builder",
+  "trait": "Bridge Builder",
   "state": "lack",
   "overlap": 0.11
  },
  {
   "text": "אתם רבים על איזה סרט לראות? שיהיה מה שבא לכם, אני הולך לישון.",
-  "strength": "Bridge Builder",
+  "trait": "Bridge Builder",
   "state": "lack",
   "overlap": 0.14
  },
  {
   "text": "ראיתי שהתחיל ויכוח בקבוצה של ההורים על הטיול. אני לא נכנס לזה, שיסדרו את זה ביניהם.",
-  "strength": "Bridge Builder",
+  "trait": "Bridge Builder",
   "state": "lack",
   "overlap": 0.13
  },
  {
   "text": "שמעתי את שניכם, ואני חושב שלכל אחד יש חלק בצדק. בואו נשב רגע בשקט, יש לי הצעה שאולי תתאים לשניכם.",
-  "strength": "Bridge Builder",
+  "trait": "Bridge Builder",
   "state": "balanced",
   "overlap": 0.09
  },
  {
   "text": "תודה שניסיתם לעזור, אבל המוצר הגיע שבור ואני רוצה החלפה. אשמח שנמצא פתרון שיעבוד לשני הצדדים.",
-  "strength": "Bridge Builder",
+  "trait": "Bridge Builder",
   "state": "balanced",
   "overlap": 0.07
  },
  {
   "text": "אני לא אוהב להתווכח, אבל חשוב לי להגיד שהאיחורים האלה באמת מעצבנים אותי. בוא נמצא משהו שיהיה נוח לשנינו.",
-  "strength": "Bridge Builder",
+  "trait": "Bridge Builder",
   "state": "balanced",
   "overlap": 0.1
  },
  {
   "text": "בסדר, אקח גם את הדוח הזה, אין בעיה. עדיף שלא נעשה מזה סיפור, גם ככה הכול עליי.",
-  "strength": "Bridge Builder",
+  "trait": "Bridge Builder",
   "state": "excess",
   "overlap": 0.07
  },
  {
   "text": "אמא שאלה מה אני חושב על המקום לחתונה ואמרתי שהכול יפה. בפועל זה בכלל לא מתאים לי, אבל לא רציתי להרים גלים.",
-  "strength": "Bridge Builder",
+  "trait": "Bridge Builder",
   "state": "excess",
   "overlap": 0.12
  },
  {
   "text": "לא, מעולה לי המסעדה שבחרתם, באמת. אני אנשנש משהו בבית אחרי, העיקר שכולם יהיו מרוצים.",
-  "strength": "Bridge Builder",
+  "trait": "Bridge Builder",
   "state": "excess",
   "overlap": 0.14
  },
  {
   "text": "סליחה שלא עניתי כל השבוע, פשוט אין לי כוח לכלום. גם לקום מהמיטה בבוקר זה מאמץ.",
-  "strength": "Bright Side",
+  "trait": "Bright Side",
   "state": "lack",
   "overlap": 0.09
  },
  {
   "text": "בדקתי את הדוח ואני בטוח שהכל יצא גרוע בכל מקרה. לא נראה לי שיש טעם שנתאמץ על זה.",
-  "strength": "Bright Side",
+  "trait": "Bright Side",
   "state": "lack",
   "overlap": 0.09
  },
  {
   "text": "אמא, אל תתאמצי עם ארוחת שישי בשבילי. אין לי חשק לראות אף אחד, וגם ככה כלום לא משמח אותי.",
-  "strength": "Bright Side",
+  "trait": "Bright Side",
   "state": "lack",
   "overlap": 0.1
  },
  {
   "text": "ההצגה בבית ספר ממש התבלגנה, ואני מבין שאתם מאוכזבים. בואו נשב רגע על זה, ואחר כך נחשוב מה כן יצא לנו יפה.",
-  "strength": "Bright Side",
+  "trait": "Bright Side",
   "state": "balanced",
   "overlap": 0.09
  },
  {
   "text": "היה לי שבוע קשה מאוד אחרי הבדיקות, ואני לא מתכחש לזה. אבל בא לי לצאת לקפה, תצטרפי? כיף שאת פה בשבילי.",
-  "strength": "Bright Side",
+  "trait": "Bright Side",
   "state": "balanced",
   "overlap": 0.12
  },
  {
   "text": "הפרויקט נדחה וזה מבאס, אני יודע. נקדיש כמה דקות להתבאס ואז נראה מה אפשר ללמוד מזה ולהמשיך.",
-  "strength": "Bright Side",
+  "trait": "Bright Side",
   "state": "balanced",
   "overlap": 0.1
  },
  {
   "text": "מה פתאום להתעצב על הפיטורים? זו בטוח הזדמנות מעולה, תחייכי ויהיה לך סבבה!",
-  "strength": "Bright Side",
+  "trait": "Bright Side",
   "state": "excess",
   "overlap": 0.07
  },
  {
   "text": "היי, הכל טוב, אין מה לדבר על זה. הרופא אמר שזה לא פשוט אבל אני לא רוצה לחשוב על זה, בוא נדבר על משהו כיפי.",
-  "strength": "Bright Side",
+  "trait": "Bright Side",
   "state": "excess",
   "overlap": 0.13
  },
  {
   "text": "שמעתי שהחבילה הלכה לאיבוד, אבל זה בכלל לא נורא, כולם נהדרים! אל תכעס עליהם, בואו פשוט נחייך ונמשיך.",
-  "strength": "Bright Side",
+  "trait": "Bright Side",
   "state": "excess",
   "overlap": 0.1
  },
  {
   "text": "קיבלתי מהבנק מכתב על המשכנתא ואין לי מושג מה אמורים לעשות איתו, אז שמתי אותו במגירה. אולי זה יסתדר מעצמו.",
-  "strength": "Careful",
+  "trait": "Careful",
   "state": "lack",
   "overlap": 0.1
  },
  {
   "text": "המורה כתבה לי שהילד מתקשה בחשבון. לא ברור לי מה הצעד הבא, אז בינתיים אני לא נוגע בזה.",
-  "strength": "Careful",
+  "trait": "Careful",
   "state": "lack",
   "overlap": 0.13
  },
  {
   "text": "הכתף כואבת לי כבר חודש, אבל אני לא יודע למי בכלל פונים עם זה. אז אני ממשיך כרגיל ומקווה לטוב.",
-  "strength": "Careful",
+  "trait": "Careful",
   "state": "lack",
   "overlap": 0.13
  },
  {
   "text": "השוויתי מחירים בין שתי החברות וקראתי את החוזה מההתחלה עד הסוף. סגרתי עם השנייה, ואם משהו יצוץ נסדר את זה תוך כדי.",
-  "strength": "Careful",
+  "trait": "Careful",
   "state": "balanced",
   "overlap": 0.1
  },
  {
   "text": "עברתי על כל הסעיפים וגם שאלתי את עורך הדין. הכול בסדר מבחינתי, אפשר לשלוח לחתימה.",
-  "strength": "Careful",
+  "trait": "Careful",
   "state": "balanced",
   "overlap": 0.06
  },
  {
   "text": "ראיתי את שני הדגמים של המקרר ובחרתי את הראשון. תשלחו לי בבקשה קישור לתשלום.",
-  "strength": "Careful",
+  "trait": "Careful",
   "state": "balanced",
   "overlap": 0.06
  },
  {
   "text": "עוד לא הזמנתי את הספה. קראתי עוד עשרים ביקורות, ומישהו כתב שהבד נפרם אחרי שנה, אז אני מתלבט שוב.",
-  "strength": "Careful",
+  "trait": "Careful",
   "state": "excess",
   "overlap": 0.1
  },
  {
   "text": "אפשר עוד יומיים עד שאחזור אליך? אני רוצה לעבור שוב על כל המספרים ולשאול עוד מישהו לדעתו.",
-  "strength": "Careful",
+  "trait": "Careful",
   "state": "excess",
   "overlap": 0.09
  },
  {
   "text": "לפני שאני מאשר, אפשר לוודא שוב שהמידה נכונה? אני יודע ששאלתי כבר שלוש פעמים, אבל ליתר ביטחון.",
-  "strength": "Careful",
+  "trait": "Careful",
   "state": "excess",
   "overlap": 0.06
  },
  {
   "text": "שלחתי הודעה בקבוצה של החברים מהצבא ואף אחד לא ענה. בעצם, כבר שנה אני לא מרגיש שיש לי עם מי לדבר באמת.",
-  "strength": "Close Bond",
+  "trait": "Close Bond",
   "state": "lack",
   "overlap": 0.15
  },
  {
   "text": "בעבודה כולם נחמדים, אנחנו יוצאים לצהריים ביחד, אבל אם יקרה לי משהו לא יודע למי הייתי מתקשר. הכול נשאר ברמה של שיחות חולין.",
-  "strength": "Close Bond",
+  "trait": "Close Bond",
   "state": "lack",
   "overlap": 0.11
  },
  {
   "text": "המטפלת שאלה מי יבוא איתי לניתוח ופשוט שתקתי. אין לי אחד כזה שאפשר לבקש ממנו דבר כזה.",
-  "strength": "Close Bond",
+  "trait": "Close Bond",
   "state": "lack",
   "overlap": 0.12
  },
  {
   "text": "הערב אני יוצאת לקפה עם נועה, אנחנו מכירות המון שנים ויש לנו הרבה מה לספר. ואם התפנה לך זמן, בא לי להכיר אותך יותר, נראה לי שנסתדר.",
-  "strength": "Close Bond",
+  "trait": "Close Bond",
   "state": "balanced",
   "overlap": 0.08
  },
  {
   "text": "הצטרף אלינו לצוות מישהו חדש ונראה לי מעניין. הזמנתי אותו לארוחת צהריים, בלי לחץ, נראה איך זה יתפתח.",
-  "strength": "Close Bond",
+  "trait": "Close Bond",
   "state": "balanced",
   "overlap": 0.09
  },
  {
   "text": "החברה הכי טובה שלי מגיעה לשבת, ואני מארגנת גם ארוחה קטנה עם השכנים החדשים. כיף לי גם לחזק ישנים וגם לפגוש חדשים.",
-  "strength": "Close Bond",
+  "trait": "Close Bond",
   "state": "balanced",
   "overlap": 0.11
  },
  {
   "text": "תודה על ההזמנה לחתונה, אבל אני לא רוצה לשבת שעתיים ליד אנשים שלא מכירים אותי. אם זה לא מישהו שאני יודע עליו הכול, אין לי מה לדבר איתו.",
-  "strength": "Close Bond",
+  "trait": "Close Bond",
   "state": "excess",
   "overlap": 0.19
  },
  {
   "text": "היי, אפשר לדבר עם נציג אחד קבוע שמכיר אותי ואת התיק שלי? אני לא מתכוון להסביר שוב את עצמי לכל מי שעונה.",
-  "strength": "Close Bond",
+  "trait": "Close Bond",
   "state": "excess",
   "overlap": 0.19
  },
  {
   "text": "ביקשו ממני להחליף שיחה קצרה עם השכן החדש במעלית ואמרתי שלא. עד שלא אכיר אותו לעומק, אין לי מה להגיד לו אפילו שלום.",
-  "strength": "Close Bond",
+  "trait": "Close Bond",
   "state": "excess",
   "overlap": 0.1
  },
  {
   "text": "וואלה לא מעניין אותי לשבת על ההחלטה הזאת, תבחרו מה שבא לכם ואני אסכים.",
-  "strength": "Deep Thinker",
+  "trait": "Deep Thinker",
   "state": "lack",
   "overlap": 0.12
  },
  {
   "text": "שאלת אותי למה הקרוב נפל בבחינה? אין לי מושג ולא ממש אכפת לי, זה לא קשור אלי.",
-  "strength": "Deep Thinker",
+  "trait": "Deep Thinker",
   "state": "lack",
   "overlap": 0.23
  },
  {
   "text": "אני לא מבין למה כולם מדברים כל כך על המשמעות של כל דבר, עושים מזה סיפור. פשוט ממשיכים הלאה.",
-  "strength": "Deep Thinker",
+  "trait": "Deep Thinker",
   "state": "lack",
   "overlap": 0.14
  },
  {
   "text": "לקחתי אתמול ערב שקט לשקול את ההצעה של החברה החדשה, והבוקר החלטתי. אני שולח להם תשובה עוד היום.",
-  "strength": "Deep Thinker",
+  "trait": "Deep Thinker",
   "state": "balanced",
   "overlap": 0.07
  },
  {
   "text": "אני רוצה קצת זמן לחשוב על זה לפני שאני עונה, אבל מבטיח לחזור אליך מחר עד הצהריים עם כן או לא.",
-  "strength": "Deep Thinker",
+  "trait": "Deep Thinker",
   "state": "balanced",
   "overlap": 0.21
  },
  {
   "text": "ישבתי עם עצמי על השאלה אם להחליף דירה, ועכשיו הכול ברור לי. קבעתי כבר סיור ביום חמישי.",
-  "strength": "Deep Thinker",
+  "trait": "Deep Thinker",
   "state": "balanced",
   "overlap": 0.06
  },
  {
   "text": "עוד לא הזמנתי את הספה, אני עדיין שוקל איך היא תשפיע על האווירה בבית ובכלל מה זה אומר עלי. כבר שלושה שבועות שאני בזה.",
-  "strength": "Deep Thinker",
+  "trait": "Deep Thinker",
   "state": "excess",
   "overlap": 0.1
  },
  {
   "text": "סליחה שאני מאחר שוב עם המצגת, כל פעם שאני מתחיל לכתוב אני נתקע בשאלה אם זה בכלל הכיוון הנכון. אני לא מצליח לסיים.",
-  "strength": "Deep Thinker",
+  "trait": "Deep Thinker",
   "state": "excess",
   "overlap": 0.08
  },
  {
   "text": "הרופא אמר לקבוע בדיקה, ואני כבר חודש מנתח בראש את כל התרחישים האפשריים ועדיין לא התקשרתי.",
-  "strength": "Deep Thinker",
+  "trait": "Deep Thinker",
   "state": "excess",
   "overlap": 0.06
  },
  {
   "text": "תשמע, הדוח הזה בכלל לא אצלי, תפנה אותו לרון או לדנה. אני לא נכנס לזה.",
-  "strength": "Dependable",
+  "trait": "Dependable",
   "state": "lack",
   "overlap": 0.11
  },
  {
   "text": "שוב נשארה חשבונית פתוחה? אני לא מתכוון לרדוף אחריה, תטפל בזה אתה ונדבר אחר כך.",
-  "strength": "Dependable",
+  "trait": "Dependable",
   "state": "lack",
   "overlap": 0.11
  },
  {
   "text": "מי שרוצה לארגן את המסיבה של הכיתה, שיארגן. אני מחוץ לעניין, אין לי כוח לזה.",
-  "strength": "Dependable",
+  "trait": "Dependable",
   "state": "lack",
   "overlap": 0.07
  },
  {
   "text": "אשמח לעזור עם המצגת ואשלח לך אותה מחר עד הצהריים. את הנספחים תעביר למישהו אחר, השבוע אני מפוצץ.",
-  "strength": "Dependable",
+  "trait": "Dependable",
   "state": "balanced",
   "overlap": 0.09
  },
  {
   "text": "מחר אני אוספת את הילדים מהגן כמו שסיכמנו. ביום רביעי אני לא יכולה, תסדרו בלעדיי.",
-  "strength": "Dependable",
+  "trait": "Dependable",
   "state": "balanced",
   "overlap": 0.12
  },
  {
   "text": "קבעתי תור לבדיקה ואגיע אליו. את הפגישה שנקבעה לאותה שעה אני מעבירה ליום חמישי, זה פשוט לא ריאלי.",
-  "strength": "Dependable",
+  "trait": "Dependable",
   "state": "balanced",
   "overlap": 0.1
  },
  {
   "text": "עוד פרויקט? סבבה, אני אכניס גם אותו. כבר שבוע אני ישן ארבע שעות, אבל מה, אם לא אני אז מי.",
-  "strength": "Dependable",
+  "trait": "Dependable",
   "state": "excess",
   "overlap": 0.12
  },
  {
   "text": "הבטחתי להורים שאבוא כל יום, לחבר שאעזור לו בדירה ועוד נכנסתי לוועד הבית. אני גמור, ועדיין לא מצליח לבטל כלום.",
-  "strength": "Dependable",
+  "trait": "Dependable",
   "state": "excess",
   "overlap": 0.13
  },
  {
   "text": "הרופא אמר לנוח, אבל הבטחתי ללקוחות שזה יהיה אצלם מחר. אז אני ער כל הלילה, סליחה שאני עונה כל כך מאוחר.",
-  "strength": "Dependable",
+  "trait": "Dependable",
   "state": "excess",
   "overlap": 0.08
  },
  {
   "text": "יום שלם ישבתי מול המחשב ובסוף אין לי שום דבר ביד. אני מרגיש ריק ומרוקן לגמרי.",
-  "strength": "Doer",
+  "trait": "Doer",
   "state": "lack",
   "overlap": 0.24
  },
  {
   "text": "סורי, היום לא יצא לי כלום מהידיים ואני מרגיש חסר ערך. אנסה לסגור את זה מחר.",
-  "strength": "Doer",
+  "trait": "Doer",
   "state": "lack",
   "overlap": 0.28
  },
  {
   "text": "הרופא אמר להישאר בבית שלושה ימים ואני משתגע. מרגיש שאני סתם מתבטל ושום דבר לא זז.",
-  "strength": "Doer",
+  "trait": "Doer",
   "state": "lack",
   "overlap": 0.14
  },
  {
   "text": "סגרתי היום את הדוח ועוד שתי פניות של לקוחות, וזהו, אני יוצא הביתה. מחר ממשיכים עם ראש רענן.",
-  "strength": "Doer",
+  "trait": "Doer",
   "state": "balanced",
   "overlap": 0.15
  },
  {
   "text": "עשיתי קניות, ניקיתי ובישלתי, ועכשיו אני מתיישב עם סרט בלי רגשות אשם.",
-  "strength": "Doer",
+  "trait": "Doer",
   "state": "balanced",
   "overlap": 0.1
  },
  {
   "text": "סיימתי את שני הפרקים שתכננתי ללמוד למבחן, והשלישי נשאר למחר. מגיע לי ערב שקט.",
-  "strength": "Doer",
+  "trait": "Doer",
   "state": "balanced",
   "overlap": 0.08
  },
  {
   "text": "השעה אחת בלילה ואני עדיין מסדר את המחסן. יש לי רשימה באורך קילומטר, איך אפשר ללכת לישון עכשיו?",
-  "strength": "Doer",
+  "trait": "Doer",
   "state": "excess",
   "overlap": 0.1
  },
  {
   "text": "אפשר להוסיף להזמנה עוד שלוש מגירות? ואם אפשר שיגיעו כבר הערב, אין לי זמן לחכות.",
-  "strength": "Doer",
+  "trait": "Doer",
   "state": "excess",
   "overlap": 0.1
  },
  {
   "text": "הרופא אמר לקחת שבוע חופש, אבל אני חוזר לעבודה כבר מחר. לשבת בבית זה לא בשבילי.",
-  "strength": "Doer",
+  "trait": "Doer",
   "state": "excess",
   "overlap": 0.14
  },
  {
   "text": "אין פה שום דירוג ושאף אחד לא משווה בינינו, אז אני סוגר את הלפטופ ב-4. ממילא אף אחד לא רואה כמה עשיתי.",
-  "strength": "Drive to Win",
+  "trait": "Drive to Win",
   "state": "lack",
   "overlap": 0.09
  },
  {
   "text": "הפסקתי ללכת לחדר כושר, אין שם מישהו שסופר אותי ואין לי חשק להתאמץ סתם.",
-  "strength": "Drive to Win",
+  "trait": "Drive to Win",
   "state": "lack",
   "overlap": 0.14
  },
  {
   "text": "המורה אמרה שאין ציון על העבודה הזו, אז לא בא לי להשקיע בה. בשביל מה לעבוד קשה אם אף אחד לא בודק?",
-  "strength": "Drive to Win",
+  "trait": "Drive to Win",
   "state": "lack",
   "overlap": 0.15
  },
  {
   "text": "יצאתי שלישי בריצה של החברה, קצת נעלבתי, אבל כל הכבוד לדנה שלקחה את הראשון. זה דחף אותי להתחיל להתאמן ברצינות.",
-  "strength": "Drive to Win",
+  "trait": "Drive to Win",
   "state": "balanced",
   "overlap": 0.1
  },
  {
   "text": "אשמח לראות איך הנתונים שלי נראים מול שאר הצוות, זה עוזר לי להתקדם. ובינתיים, כל הכבוד לרוני על מספר הפניות שסגרה החודש.",
-  "strength": "Drive to Win",
+  "trait": "Drive to Win",
   "state": "balanced",
   "overlap": 0.07
  },
  {
   "text": "הבת שלי ניצחה אותי בשש-בש ושמחתי בשבילה מאוד. בפעם הבאה אני חוזר חזק יותר.",
-  "strength": "Drive to Win",
+  "trait": "Drive to Win",
   "state": "balanced",
   "overlap": 0.15
  },
  {
   "text": "התעצבנתי נורא שמישהי עקפה אותי בתור בסופר. אני חייב לצאת מהקופה לפני כולם, גם אם זה רק שלוש עגבניות.",
-  "strength": "Drive to Win",
+  "trait": "Drive to Win",
   "state": "excess",
   "overlap": 0.15
  },
  {
   "text": "ראיתי שאורי עשה 12 אלף צעדים היום, אז הלכתי עד חצות כדי להגיע ל-13. לא אתן לו לעקוף אותי גם בזה.",
-  "strength": "Drive to Win",
+  "trait": "Drive to Win",
   "state": "excess",
   "overlap": 0.1
  },
  {
   "text": "בקבוצת ההורים כולם שלחו תמונות של עוגות ליום ההולדת, אז אפיתי שלוש וקישטתי עד 2 בלילה. העוגה שלי חייבת להיראות מרשימה מכולן.",
-  "strength": "Drive to Win",
+  "trait": "Drive to Win",
   "state": "excess",
   "overlap": 0.09
  },
  {
   "text": "אין לי מושג אם כדאי לעבור לדירה ההיא. לא מצאתי עליה שום מספרים, אז אני לא מוכן להגיד כלום.",
-  "strength": "Evidence Seeker",
+  "trait": "Evidence Seeker",
   "state": "lack",
   "overlap": 0.16
  },
  {
   "text": "בישיבה לא אצביע על אף אחת מההצעות. אין לי על מה להישען, ולכן אין לי עמדה.",
-  "strength": "Evidence Seeker",
+  "trait": "Evidence Seeker",
   "state": "lack",
   "overlap": 0.2
  },
  {
   "text": "הרופא שאל מה אני מעדיף, ואמרתי לו שבלי מחקרים ביד אין לי שום דעה.",
-  "strength": "Evidence Seeker",
+  "trait": "Evidence Seeker",
   "state": "lack",
   "overlap": 0.15
  },
  {
   "text": "השוויתי מחירים וקראתי כמה ביקורות. זה לא כל התמונה, אבל זה מספיק טוב בשבילי, אז אני לוקח את זה.",
-  "strength": "Evidence Seeker",
+  "trait": "Evidence Seeker",
   "state": "balanced",
   "overlap": 0.09
  },
  {
   "text": "יש לנו תוצאות רק משבועיים, וזה לא מושלם. זה מספיק כדי להתחיל, ואם המגמה תתהפך נשנה כיוון.",
-  "strength": "Evidence Seeker",
+  "trait": "Evidence Seeker",
   "state": "balanced",
   "overlap": 0.06
  },
  {
   "text": "קראתי קצת על שני החוגים לילדה ולא הכול ברור לי. נרשום אותה לראשון, ואחרי חודש נראה אם זה עובד.",
-  "strength": "Evidence Seeker",
+  "trait": "Evidence Seeker",
   "state": "balanced",
   "overlap": 0.11
  },
  {
   "text": "עוד לא הזמנתי פיצה. אני רוצה קודם לעבור על כל הדירוגים של כל המקומות בשכונה ולסדר אותם בטבלה.",
-  "strength": "Evidence Seeker",
+  "trait": "Evidence Seeker",
   "state": "excess",
   "overlap": 0.1
  },
  {
   "text": "לפני שאני בוחר כיסוי למכשיר, אפשר לשלוח לי השוואה מלאה בין כל הדגמים, כולל בדיקות עמידות מהמעבדה?",
-  "strength": "Evidence Seeker",
+  "trait": "Evidence Seeker",
   "state": "excess",
   "overlap": 0.11
  },
  {
   "text": "אני לא מסוגל לבחור צבע לכפתור לפני שנריץ ניסוי על אלף משתמשים ונשווה בין כל הגוונים.",
-  "strength": "Evidence Seeker",
+  "trait": "Evidence Seeker",
   "state": "excess",
   "overlap": 0.11
  },
  {
   "text": "נו, מה אכפת לי שהוא מאחר כל יום, אף אחד פה לא באמת בודק. כל אחד עושה מה שנוח לו.",
-  "strength": "Fair Play",
+  "trait": "Fair Play",
   "state": "lack",
   "overlap": 0.2
  },
  {
   "text": "ראיתי שהשכנים שוב חונים על המדרכה, אז גם אני כבר לא מתאמץ לחפש חנייה חוקית. ממילא אף אחד לא נקנס.",
-  "strength": "Fair Play",
+  "trait": "Fair Play",
   "state": "lack",
   "overlap": 0.12
  },
  {
   "text": "המורה אמרה שאסור טלפונים בכיתה, אבל כולם יושבים עם זה, אז לא אגיד כלום. לא שווה לי להתעסק.",
-  "strength": "Fair Play",
+  "trait": "Fair Play",
   "state": "lack",
   "overlap": 0.15
  },
  {
   "text": "אני מבין שהבקשה שלך מוצדקת, אבל בוא נבדוק איך אנחנו נותנים את אותו פתרון גם לאחרים במצב דומה. אם יש נסיבות מיוחדות, נתעד אותן ונאשר.",
-  "strength": "Fair Play",
+  "trait": "Fair Play",
   "state": "balanced",
   "overlap": 0.06
  },
  {
   "text": "הנוהל אומר שהחזרה אפשרית רק עד 14 יום, אבל אתם עברתם את זה בשלושה ימים בגלל אשפוז. אשמח שהמנהל יבדוק את זה כחריגה מנומקת.",
-  "strength": "Fair Play",
+  "trait": "Fair Play",
   "state": "balanced",
   "overlap": 0.05
  },
  {
   "text": "קבענו שכולם מגישים את העבודה עד יום חמישי, וזה נשאר. אם מישהו נתקע בגלל מילואים או מחלה, נדבר איתו ונמצא הסדר הוגן.",
-  "strength": "Fair Play",
+  "trait": "Fair Play",
   "state": "balanced",
   "overlap": 0.07
  },
  {
   "text": "מצטער, אבל גם אם הגעת דקה אחרי הסגירה, אני לא יכול להכניס אותך. אם אפתח לך, אצטרך לפתוח לכולם.",
-  "strength": "Fair Play",
+  "trait": "Fair Play",
   "state": "excess",
   "overlap": 0.14
  },
  {
   "text": "אמרתי לך שההגשה היא עד חצות, וגם אם האינטרנט נפל לך ב־23:59 זה לא משנה. אין אצלי חריגות, בלי יוצאים מן הכלל.",
-  "strength": "Fair Play",
+  "trait": "Fair Play",
   "state": "excess",
   "overlap": 0.12
  },
  {
   "text": "אני יודע שהוא היה חולה, אבל התור הוא תור. שיחכה כמו כולם, ואני לא מוכן לשמוע על מקרים מיוחדים.",
-  "strength": "Fair Play",
+  "trait": "Fair Play",
   "state": "excess",
   "overlap": 0.14
  },
  {
   "text": "המדפסת שוב קרסה, נו מילא. קנינו אותה לפני שנתיים, כנראה סיימה את דרכה, אין טעם לנסות משהו.",
-  "strength": "Fixer",
+  "trait": "Fixer",
   "state": "lack",
   "overlap": 0.09
  },
  {
   "text": "הברז במטבח מטפטף כבר חודש, אבל בטח זה משהו עמוק בצנרת. לא נראה לי שמישהו יוכל לעשות עם זה משהו.",
-  "strength": "Fixer",
+  "trait": "Fixer",
   "state": "lack",
   "overlap": 0.12
  },
  {
   "text": "המורה אמרה שהקריאה של הילד חלשה, אבל נראה לי שזה פשוט ככה אצלו. אין מה לעשות, זה לא ישתנה.",
-  "strength": "Fixer",
+  "trait": "Fixer",
   "state": "lack",
   "overlap": 0.2
  },
  {
   "text": "סידרתי את הבאג שעצר לנו את התשלומים בצ'ק-אאוט. את העיצוב המעפן של הכפתורים נשאיר לשבוע הבא, זה לא דחוף.",
-  "strength": "Fixer",
+  "trait": "Fixer",
   "state": "balanced",
   "overlap": 0.07
  },
  {
   "text": "הצלחתי להחיות את המכונת כביסה עם החלפת צינור, ועכשיו היא עובדת. הדלת שחורקת קצת יכולה לחכות לסופ״ש.",
-  "strength": "Fixer",
+  "trait": "Fixer",
   "state": "balanced",
   "overlap": 0.08
  },
  {
   "text": "דיברתי עם הרופא ופתרנו את עניין הכאבים בגב עם תרגילים פשוטים. את שאר הבדיקות נעשה אחרי החגים, אין לחץ.",
-  "strength": "Fixer",
+  "trait": "Fixer",
   "state": "balanced",
   "overlap": 0.09
  },
  {
   "text": "כבר שתים בלילה ואני עדיין יושב על הקוד, כי יש עוד באג קטן אחד שמציק לי ואני לא מצליח להרפות. לא אלך לישון עד שהכל ירוץ חלק.",
-  "strength": "Fixer",
+  "trait": "Fixer",
   "state": "excess",
   "overlap": 0.09
  },
  {
   "text": "החלפתי שלוש פעמים את המדף בסלון כי הוא נטוי במילימטר. אשתי אומרת שאף אחד לא רואה, אבל אני כל הזמן מסתכל עליו ולא נרגע.",
-  "strength": "Fixer",
+  "trait": "Fixer",
   "state": "excess",
   "overlap": 0.06
  },
  {
   "text": "קניתי את הנעליים אבל התפר בצד לא ישר, ואני מחפש תיקונים כבר שלושה ימים. אני לא מסוגל ללבוש אותן ככה.",
-  "strength": "Fixer",
+  "trait": "Fixer",
   "state": "excess",
   "overlap": 0.09
  },
  {
   "text": "נשאלתי אם אני רוצה להצטרף להדרכה על המערכת החדשה בעבודה, אמרתי שאין לי כוח. מסתדר עם מה שאני יודע כבר שנים.",
-  "strength": "Forever Student",
+  "trait": "Forever Student",
   "state": "lack",
   "overlap": 0.08
  },
  {
   "text": "חברה הציעה לי לבוא איתה לסדנת קרמיקה ביום שישי, עניתי לה: \"נו באמת, בשביל מה? יש לי מספיק על הראש.\"",
-  "strength": "Forever Student",
+  "trait": "Forever Student",
   "state": "lack",
   "overlap": 0.05
  },
  {
   "text": "הרופא הציע לי חוברת על התזונה החדשה שלי, אמרתי לו שלא צריך. אני פשוט אמשיך לאכול כמו תמיד.",
-  "strength": "Forever Student",
+  "trait": "Forever Student",
   "state": "lack",
   "overlap": 0.07
  },
  {
   "text": "סיימתי אתמול קורס באקסל, ובבוקר כבר בניתי בעזרתו טבלה שחוסכת לנו שעה בשבוע בצוות. עכשיו אני מסתכל על קורס על ניתוח נתונים.",
-  "strength": "Forever Student",
+  "trait": "Forever Student",
   "state": "balanced",
   "overlap": 0.06
  },
  {
   "text": "קראתי כמה מאמרים על גידול עגבניות במרפסת, ובסוף השבוע שתלתי. נראה לי שבעוד חודש כבר יהיו פירות.",
-  "strength": "Forever Student",
+  "trait": "Forever Student",
   "state": "balanced",
   "overlap": 0.04
  },
  {
   "text": "שלום, אני מחפש ספר מומלץ על תקשורת עם בני נוער. קראתי כבר שניים ועבדתי על זה עם הבן שלי, ועכשיו אני רוצה להעמיק עוד.",
-  "strength": "Forever Student",
+  "trait": "Forever Student",
   "state": "balanced",
   "overlap": 0.05
  },
  {
   "text": "נרשמתי כבר לקורס חמישי השנה, ועדיין לא פתחתי את העסק שאני מדבר עליו כבר חצי שנה. תמיד נדמה לי שחסר לי עוד משהו לפני שמתחילים.",
-  "strength": "Forever Student",
+  "trait": "Forever Student",
   "state": "excess",
   "overlap": 0.07
  },
  {
   "text": "יש לי בטלפון שבעה פודקאסטים ושלושה קורסים פתוחים, ואין לי מושג מה עשיתי עם כל זה. כל פעם שאני צריך להחליט משהו, אני הולך לחפש עוד חומר.",
-  "strength": "Forever Student",
+  "trait": "Forever Student",
   "state": "excess",
   "overlap": 0.07
  },
  {
   "text": "היי, אפשר להחליף את הספר? כבר קניתי הרבה על ניהול זמן, וקראתי את כולם. אבל הבית שלי עדיין הפוך ואני לא מצליח להתארגן.",
-  "strength": "Forever Student",
+  "trait": "Forever Student",
   "state": "excess",
   "overlap": 0.13
  },
  {
   "text": "אמרנו שמגיעים ב-18:00 בדיוק, אז אל תשנו לי עכשיו את השעה. אני כבר סידרתי הכול לפי הלו\"ז ולא מסוגל להתחיל לחשוב מחדש.",
-  "strength": "Go With the Flow",
+  "trait": "Go With the Flow",
   "state": "lack",
   "overlap": 0.09
  },
  {
   "text": "החנות סגרה לי את המוצר שתכננתי לקנות, אז פשוט חזרתי הביתה בלי כלום. אין לי כוח לחפש חלופה, הלכתי לשם בשביל משהו אחד.",
-  "strength": "Go With the Flow",
+  "trait": "Go With the Flow",
   "state": "lack",
   "overlap": 0.12
  },
  {
   "text": "המורה העבירה את המבחן ליום אחר ואני בלחץ מטורף. כל התוכנית שלי להכנה התפרקה ואני לא יודעת מאיפה להתחיל.",
-  "strength": "Go With the Flow",
+  "trait": "Go With the Flow",
   "state": "lack",
   "overlap": 0.14
  },
  {
   "text": "הפגישה נדחתה, אז ניצלתי את השעה להתקדם במצגת. אני עדיין רוצה לסיים הכול עד סוף החודש כמו שתכננו.",
-  "strength": "Go With the Flow",
+  "trait": "Go With the Flow",
   "state": "balanced",
   "overlap": 0.08
  },
  {
   "text": "הגשם ביטל לנו את הטיול, אז עברנו לתוכנית ב' ובסוף נהנינו לא פחות. בכל מקרה בקיץ אנחנו עדיין נוסעים לצפון כמו שקבענו.",
-  "strength": "Go With the Flow",
+  "trait": "Go With the Flow",
   "state": "balanced",
   "overlap": 0.13
  },
  {
   "text": "אין בעיה לשנות את מועד התור, תשבצו אותי איפה שנוח לכם השבוע. רק חשוב לי שהבדיקה תתבצע לפני החודש הבא.",
-  "strength": "Go With the Flow",
+  "trait": "Go With the Flow",
   "state": "balanced",
   "overlap": 0.1
  },
  {
   "text": "לא יודע מה אעשה בעוד שבועיים, נראה מה יצוץ. גם על העבודה הבאה עוד לא חשבתי, אולי אסתובב קצת ואז נראה.",
-  "strength": "Go With the Flow",
+  "trait": "Go With the Flow",
   "state": "excess",
   "overlap": 0.08
  },
  {
   "text": "כבר שלושה חודשים אני קופץ ממשהו למשהו ולא ממש יודעת לאן אני הולכת. בסדר, אזרום עוד קצת ונראה מה יקרה.",
-  "strength": "Go With the Flow",
+  "trait": "Go With the Flow",
   "state": "excess",
   "overlap": 0.09
  },
  {
   "text": "קניתי כרטיס לאנשהו ולא בדקתי איפה אשכב לישון, יסתדר איכשהו. לא בא לי להתחייב מראש לשום דבר.",
-  "strength": "Go With the Flow",
+  "trait": "Go With the Flow",
   "state": "excess",
   "overlap": 0.11
  },
  {
   "text": "נו, ביקשו ממני להדריך את הצוות החדש בפרויקט. אין מצב, מה אני כבר יודע שהם לא יודעים? עוד מעט ימצאו אותי.",
-  "strength": "Grower",
+  "trait": "Grower",
   "state": "lack",
   "overlap": 0.15
  },
  {
   "text": "אחותי ביקשה שאעזור לבן שלה בשיעורי בית במתמטיקה. אמרתי לה שתמצא מישהו אחר, אני לא מי שצריך להסביר לילדים.",
-  "strength": "Grower",
+  "trait": "Grower",
   "state": "lack",
   "overlap": 0.12
  },
  {
   "text": "בחרו בי למנטורית לחיילות החדשות והתחלתי להילחץ. אני בקושי מסתדרת בעצמי, איך אני אנחה מישהי?",
-  "strength": "Grower",
+  "trait": "Grower",
   "state": "lack",
   "overlap": 0.1
  },
  {
   "text": "הסטז'ר החדש אצלנו חכם מאוד, בטוח שהוא יגיע רחוק. אבל הוא אמר שהשבוע הוא מוצף, אז נחכה עם המשימה הגדולה ונחזור לזה אחרי החג.",
-  "strength": "Grower",
+  "trait": "Grower",
   "state": "balanced",
   "overlap": 0.05
  },
  {
   "text": "הילד שלי מתעניין בגיטרה ואני רואה שיש לו אוזן טובה. סגרתי איתו שניקח שיעור ניסיון כשהוא ירגיש מוכן, בלי לחץ.",
-  "strength": "Grower",
+  "trait": "Grower",
   "state": "balanced",
   "overlap": 0.09
  },
  {
   "text": "אמרתי לדנית שלדעתי היא יכולה לנהל את הקבוצה, ושאני פה אם תרצה לדבר על זה. היא ביקשה כמה ימים לחשוב, ואני רגוע עם זה.",
-  "strength": "Grower",
+  "trait": "Grower",
   "state": "balanced",
   "overlap": 0.1
  },
  {
   "text": "שלחתי לו שוב קורס וגם שלושה מאמרים על קידום בקריירה, למרות שהוא אמר שהוא מרוצה איפה שהוא. הוא פשוט עוד לא מבין כמה הוא יכול.",
-  "strength": "Grower",
+  "trait": "Grower",
   "state": "excess",
   "overlap": 0.1
  },
  {
   "text": "אמא, שוב קבעתי לך שיחה עם היועצת לעסקים, אני יודעת שאמרת שמספיק לך החנות כמו שהיא. אבל אני רואה בך הרבה יותר, ולא אוותר.",
-  "strength": "Grower",
+  "trait": "Grower",
   "state": "excess",
   "overlap": 0.08
  },
  {
   "text": "נו, למה לא עשית את התרגילים שנתתי לך בשבוע שעבר? אמרת שאתה עייף, אבל אני לא מוותר עליך, בוא נשב עוד שעה היום.",
-  "strength": "Grower",
+  "trait": "Grower",
   "state": "excess",
   "overlap": 0.09
  },
  {
   "text": "תקשיב, אני לא צריך לשמוע למה היא נעלבה בישיבה. פשוט תגיד לה שהדוח חייב להיות אצלי עד מחר ב-9.",
-  "strength": "Heart Reader",
+  "trait": "Heart Reader",
   "state": "lack",
   "overlap": 0.06
  },
  {
   "text": "אמא שלי בוכה בטלפון כבר חצי שעה, אבל אני אומר לך, זה לא עניין שלי. שתסביר מה הבעיה בעובדות ואני אסדר את זה.",
-  "strength": "Heart Reader",
+  "trait": "Heart Reader",
   "state": "lack",
   "overlap": 0.1
  },
  {
   "text": "היי, הילד שלך אולי עצוב שלא הזמינו אותו ליומולדת, אבל זה לא סיבה לדחות את הבוחן. תשלחו אותו לבית ספר כרגיל.",
-  "strength": "Heart Reader",
+  "trait": "Heart Reader",
   "state": "lack",
   "overlap": 0.06
  },
  {
   "text": "ראיתי שהיא יצאה מהחדר עם פנים חמוצות אז ניגשתי לשאול אם היא רוצה לדבר. היא לא הייתה בעניין, אז אמרתי לה שאני כאן אם תשנה דעה, ואני ממשיך עם היום שלי.",
-  "strength": "Heart Reader",
+  "trait": "Heart Reader",
   "state": "balanced",
   "overlap": 0.1
  },
  {
   "text": "חבר שלי עובר תקופה קשה ואני מקשיב לו כל ערב, אבל החלטתי שאחרי עשר בלילה אני מכבה את הטלפון כדי שיהיה לי כוח גם בשבילו מחר.",
-  "strength": "Heart Reader",
+  "trait": "Heart Reader",
   "state": "balanced",
   "overlap": 0.12
  },
  {
   "text": "שמתי לב שהלקוחה בטלפון נשמעה לחוצה, אז האטתי ודיברתי איתה בנחת עד שהיא נרגעה. אחרי השיחה יצאתי להפסקה קצרה לאוורר את הראש.",
-  "strength": "Heart Reader",
+  "trait": "Heart Reader",
   "state": "balanced",
   "overlap": 0.07
  },
  {
   "text": "אחרי שהחברה שלי סיפרה לי על הפרידה אני לא מצליח לישון כבר שלושה לילות, כאילו זה קרה לי. אני לא יודע איפה נגמר הכאב שלה ומתחיל שלי.",
-  "strength": "Heart Reader",
+  "trait": "Heart Reader",
   "state": "excess",
   "overlap": 0.13
  },
  {
   "text": "אני צריך להתקשר לשירות לקוחות ולבטל מנוי, אבל הנציג נשמע כל כך עייף שאני מרגיש נורא ופשוט נשארתי עם המנוי. כנראה אשלם עוד חודש.",
-  "strength": "Heart Reader",
+  "trait": "Heart Reader",
   "state": "excess",
   "overlap": 0.1
  },
  {
   "text": "נכנסתי היום לפגישה והאווירה הייתה מתוחה, ויצאתי עם כאב ראש והרגשה שאני חייב לתקן את כולם. שכחתי לגמרי מה רציתי לומר בשביל עצמי.",
-  "strength": "Heart Reader",
+  "trait": "Heart Reader",
   "state": "excess",
   "overlap": 0.11
  },
  {
   "text": "שעתיים אני יושב מול המסמך הריק הזה ופשוט כלום לא עולה לי בראש. תזרוק לי בבקשה כיוון, אני תקוע.",
-  "strength": "Idea Maker",
+  "trait": "Idea Maker",
   "state": "lack",
   "overlap": 0.13
  },
  {
   "text": "ביקשו מאיתנו לחשוב על שם למבצע של סוף החודש ואני מרגישה שהראש שלי מיובש. אין לי מושג מה להציע.",
-  "strength": "Idea Maker",
+  "trait": "Idea Maker",
   "state": "lack",
   "overlap": 0.09
  },
  {
   "text": "אמא, מחר צריך להביא לבית ספר פרויקט על משהו שבא לנו ואני לא מצליח לחשוב על אפילו נושא אחד. הכול נראה לי משעמם וזהה.",
-  "strength": "Idea Maker",
+  "trait": "Idea Maker",
   "state": "lack",
   "overlap": 0.09
  },
  {
   "text": "הצגתי היום בצוות כמה כיוונים לקמפיין, ובסוף התלהבנו מאחד ואנחנו מתחילים לעבוד עליו כבר מחר. השאר נשארו בצד לפעם אחרת.",
-  "strength": "Idea Maker",
+  "trait": "Idea Maker",
   "state": "balanced",
   "overlap": 0.11
  },
  {
   "text": "היו לי שלושה סידורים אפשריים לסלון, בחרתי את זה עם הספה מתחת לחלון והזמנתי כבר את המדפים. נראה שזה הולך לצאת מעולה.",
-  "strength": "Idea Maker",
+  "trait": "Idea Maker",
   "state": "balanced",
   "overlap": 0.07
  },
  {
   "text": "היי, רציתי לשאול אם אפשר לשלב באפליקציה שלכם תזכורות לשתיית מים. חשבתי על כמה וריאציות ובחרתי את הכי פשוטה, ושמחה לשלוח לכם סקיצה.",
-  "strength": "Idea Maker",
+  "trait": "Idea Maker",
   "state": "balanced",
   "overlap": 0.03
  },
  {
   "text": "שוב קפצה לי הערב רעיון לעסק חדש, אז פתחתי עוד קובץ. יש לי כבר בערך עשרים כאלה בתיקייה וממש אף אחד מהם לא יצא לדרך.",
-  "strength": "Idea Maker",
+  "trait": "Idea Maker",
   "state": "excess",
   "overlap": 0.16
  },
  {
   "text": "התחלתי לצבוע את החדר, ואז חשבתי שבא לי להפוך אותו לסטודיו, ואז לספרייה. הקיר חצי צבוע כבר חודשיים.",
-  "strength": "Idea Maker",
+  "trait": "Idea Maker",
   "state": "excess",
   "overlap": 0.11
  },
  {
   "text": "מתי שהוא כבר אסיים משהו? כל שבוע אני קופץ לפרויקט אחר בעבודה ומשאיר מאחורי המון דברים באמצע, והבוס התחיל לשאול איפה זה עומד.",
-  "strength": "Idea Maker",
+  "trait": "Idea Maker",
   "state": "excess",
   "overlap": 0.07
  },
  {
   "text": "אני עובד לבד מהבית כבר שבוע ופשוט לא מצליח להתניע. אף אחד לא בודק מה יצא לי, אז למה להתאמץ בכלל.",
-  "strength": "Impact Seeker",
+  "trait": "Impact Seeker",
   "state": "lack",
   "overlap": 0.15
  },
  {
   "text": "ביטלתי את האימון, המאמן לא הגיע היום ואין מי שיעמוד לי על הראש. לבד זה לא שווה לי.",
-  "strength": "Impact Seeker",
+  "trait": "Impact Seeker",
   "state": "lack",
   "overlap": 0.11
  },
  {
   "text": "הגשתי את העבודה בחצי הספק, המורה בכלל לא קוראת מה שאנחנו כותבים. מה זה משנה אם אשקיע או לא.",
-  "strength": "Impact Seeker",
+  "trait": "Impact Seeker",
   "state": "lack",
   "overlap": 0.07
  },
  {
   "text": "הלקוח כתב שהמערכת עובדת חלק, ואף אחד בצוות לא יודע שאני זה שסידרתי. לא נורא, העיקר שזה באמת עזר להם.",
-  "strength": "Impact Seeker",
+  "trait": "Impact Seeker",
   "state": "balanced",
   "overlap": 0.09
  },
  {
   "text": "בישלתי לשבת לכל המשפחה ולא ציפיתי למחמאות. מספיק לי לראות אותם מנקים את הצלחת.",
-  "strength": "Impact Seeker",
+  "trait": "Impact Seeker",
   "state": "balanced",
   "overlap": 0.1
  },
  {
   "text": "אשמח להוביל את הפרויקט החדש, אני רוצה לעשות שם שינוי אמיתי. ואם לא יזכירו אותי במצגת, אני אשרוד.",
-  "strength": "Impact Seeker",
+  "trait": "Impact Seeker",
   "state": "balanced",
   "overlap": 0.2
  },
  {
   "text": "שלחתי לכולם מייל עם כל הפרטים ואף אחד לא הגיב. אפשר לפחות לכתוב תודה?",
-  "strength": "Impact Seeker",
+  "trait": "Impact Seeker",
   "state": "excess",
   "overlap": 0.17
  },
  {
   "text": "כתבתי אצלכם באתר ביקורת מפורטת ואף אחד מהצוות לא חזר אליי. אני מצפה שמישהו יגיד לי כמה זה עזר לכם.",
-  "strength": "Impact Seeker",
+  "trait": "Impact Seeker",
   "state": "excess",
   "overlap": 0.15
  },
  {
   "text": "שטפתי כלים, הוצאתי זבל וקיפלתי כביסה, ואת אפילו לא אמרת מילה. אולי תגידי כמה אני מסודר?",
-  "strength": "Impact Seeker",
+  "trait": "Impact Seeker",
   "state": "excess",
   "overlap": 0.09
  },
  {
   "text": "תגיד, איזה מהשניים אתה היית לוקח? אני מסתכל על שניהם כבר חצי שעה ולא מסוגל להחליט בלעדיך.",
-  "strength": "Inner Compass",
+  "trait": "Inner Compass",
   "state": "lack",
   "overlap": 0.11
  },
  {
   "text": "שלחתי לך את המצגת, תעבור עליה בבקשה לפני שאני מגישה? בלי שתגיד לי שזה טוב אני לא מעזה ללחוץ על שלח.",
-  "strength": "Inner Compass",
+  "trait": "Inner Compass",
   "state": "lack",
   "overlap": 0.15
  },
  {
   "text": "היי, אני צריכה להחליט לגבי הניתוח ואני לא יודעת מה נכון. תגידי לי את מה שאת היית עושה ואני אלך על זה.",
-  "strength": "Inner Compass",
+  "trait": "Inner Compass",
   "state": "lack",
   "overlap": 0.16
  },
  {
   "text": "שמעתי מה אמרת על התוכנית, זה נתן לי נקודות למחשבה. בסוף אני נשארת עם הכיוון שבחרתי, אבל הוספתי את ההצעה שלך לגבי הלו\"ז.",
-  "strength": "Inner Compass",
+  "trait": "Inner Compass",
   "state": "balanced",
   "overlap": 0.07
  },
  {
   "text": "תודה על ההערות, ניסיתי להבין אותן. חלק אני לוקח וחלק לא, ואני סגור על ההחלטה הסופית.",
-  "strength": "Inner Compass",
+  "trait": "Inner Compass",
   "state": "balanced",
   "overlap": 0.08
  },
  {
   "text": "אמא שלי חושבת שאני טועה שעזבתי את הלימודים, והקשבתי לה באמת. אבל אני יודע שזה מה שנכון לי עכשיו, ואשמח שתהיי איתי בזה.",
-  "strength": "Inner Compass",
+  "trait": "Inner Compass",
   "state": "balanced",
   "overlap": 0.12
  },
  {
   "text": "אין צורך בישיבה, כבר החלטתי איך עושים את זה. אם מישהו רוצה להעיר, שיעשה את זה אחרי שזה יעבוד.",
-  "strength": "Inner Compass",
+  "trait": "Inner Compass",
   "state": "excess",
   "overlap": 0.07
  },
  {
   "text": "הרופא אמר לי משהו אחר, אבל אני מכיר את הגוף שלי. לא אקח את הכדורים וחבל על הדיון.",
-  "strength": "Inner Compass",
+  "trait": "Inner Compass",
   "state": "excess",
   "overlap": 0.18
  },
  {
   "text": "קיבלתי את המשוב שלכם, זה לא משנה כלום. אני עושה את זה בדרך שלי ואין על מה לדבר.",
-  "strength": "Inner Compass",
+  "trait": "Inner Compass",
   "state": "excess",
   "overlap": 0.13
  },
  {
   "text": "וואלה אין לי מושג למה זה קרה לי עכשיו, פשוט יום מבולגן אחרי יום מבולגן. כל דבר קורה לבד ואין שום היגיון.",
-  "strength": "Interwoven",
+  "trait": "Interwoven",
   "state": "lack",
   "overlap": 0.11
  },
  {
   "text": "שאלו אותי בצוות איך הפרויקט הזה קשור לשאר מה שעשינו ברבעון ואני בכלל לא ראיתי חוט מקשר. נראה לי שכל משימה סתם נזרקת מכאן לשם.",
-  "strength": "Interwoven",
+  "trait": "Interwoven",
   "state": "lack",
   "overlap": 0.13
  },
  {
   "text": "הגעתי לרופא אחרי שלוש בדיקות שונות ועדיין לא הבנתי איך הסימפטומים קשורים אחד לשני. הכל מרגיש כמו עניינים נפרדים בלי שום סיפור.",
-  "strength": "Interwoven",
+  "trait": "Interwoven",
   "state": "lack",
   "overlap": 0.09
  },
  {
   "text": "הרגע גיליתי שהמנהלת החדשה למדה עם אחותי באותה כיתה, איזה כיף של צירוף מקרים. מצד שני, אני יודעת שלפעמים דברים סתם קורים בלי סיבה.",
-  "strength": "Interwoven",
+  "trait": "Interwoven",
   "state": "balanced",
   "overlap": 0.05
  },
  {
   "text": "נראה לי שהחברים שלי מהצבא והעבודה החדשה קשורים אחד לשני יותר ממה שחשבתי, אז הזמנתי את כולם לערב אחד. נראה מה יצא, ואם לא יתאים, גם זה בסדר.",
-  "strength": "Interwoven",
+  "trait": "Interwoven",
   "state": "balanced",
   "overlap": 0.1
  },
  {
   "text": "איחרתי לאוטובוס ופספסתי את הפגישה, וקצת התבאסתי. אולי יש בזה משהו טוב ואולי פשוט לא יצא, אני לא חייב לפענח הכל.",
-  "strength": "Interwoven",
+  "trait": "Interwoven",
   "state": "balanced",
   "overlap": 0.1
  },
  {
   "text": "ראיתי את אותו מספר על השעון, על הקבלה ועל הלוחית של האוטו שלפניי, ברור שזה מסר אליי. היקום מנסה להגיד לי משהו לגבי ההחלטה הזאת.",
-  "strength": "Interwoven",
+  "trait": "Interwoven",
   "state": "excess",
   "overlap": 0.05
  },
  {
   "text": "הפקידה בחנות קראה לי באותו שם כמו סבתא שלי ז״ל, זה בטוח לא סתם. אני חייבת לקנות דווקא את השעון הזה, זה כתוב בכוכבים.",
-  "strength": "Interwoven",
+  "trait": "Interwoven",
   "state": "excess",
   "overlap": 0.08
  },
  {
   "text": "המחשב קרס בדיוק כשחשבתי על האקס שלי, אז כנראה זה סימן שאנחנו צריכים לחזור. אין מצב שזה סתם תקלה טכנית.",
-  "strength": "Interwoven",
+  "trait": "Interwoven",
   "state": "excess",
   "overlap": 0.06
  },
  {
   "text": "היי, פתחתי עשר לשוניות במחשב ואני כבר לא זוכר מה רציתי לעשות. שוב עבר יום ואין לי כלום להראות.",
-  "strength": "On-Target",
+  "trait": "On-Target",
   "state": "lack",
   "overlap": 0.11
  },
  {
   "text": "אמא, התחלתי לסדר את הארון, אחר כך עברתי למטבח, ואז לשטוף את האוטו... הבית הפוך ושום דבר לא גמור.",
-  "strength": "On-Target",
+  "trait": "On-Target",
   "state": "lack",
   "overlap": 0.21
  },
  {
   "text": "שלום, אני מבקש עוד הארכה להגשה. קפצתי בין שלושה נושאים לעבודה ולא התקדמתי באף אחד.",
-  "strength": "On-Target",
+  "trait": "On-Target",
   "state": "lack",
   "overlap": 0.12
  },
  {
   "text": "אני נכנס לשעתיים עבודה על המצגת. אם משהו דחוף, תכתבי לי ואציץ בהפסקה.",
-  "strength": "On-Target",
+  "trait": "On-Target",
   "state": "balanced",
   "overlap": 0.12
  },
  {
   "text": "אני מחפש רק מקרר ברוחב הזה. אבל אם יש דגם דומה במבצע, אשמח שתראה לי.",
-  "strength": "On-Target",
+  "trait": "On-Target",
   "state": "balanced",
   "overlap": 0.09
  },
  {
   "text": "תודה על ההצעה לקורס, נשמע מעניין! כרגע אני שקוע בלימודים לבגרות במתמטיקה, אחזור אלייך בחודש הבא.",
-  "strength": "On-Target",
+  "trait": "On-Target",
   "state": "balanced",
   "overlap": 0.09
  },
  {
   "text": "בבקשה תפסיקו לשלוח לי הודעות על הפיצה של שישי. אין לי ראש לשום דבר עד שההגשה נגמרת.",
-  "strength": "On-Target",
+  "trait": "On-Target",
   "state": "excess",
   "overlap": 0.19
  },
  {
   "text": "לא, אני לא בא לחתונה של בן דוד, ולא עונה לטלפון עד שהקוד עובד. גם אם יש משהו חשוב, תשאירו הודעה ואני אראה אחרי.",
-  "strength": "On-Target",
+  "trait": "On-Target",
   "state": "excess",
   "overlap": 0.11
  },
  {
   "text": "הרופא אמר לנוח ולשקול טיפול נוסף, אבל יש לי יעד ריצה לסוף החודש. אל תספרו לי על שום אפשרות אחרת, אני לא מקשיב.",
-  "strength": "On-Target",
+  "trait": "On-Target",
   "state": "excess",
   "overlap": 0.17
  },
  {
   "text": "שרית, אני יושב על הלו״ז של השבוע כבר שעה ולא מצליח להבין מי אמור להיות איפה. תעזרי לי בבקשה, אני טובע.",
-  "strength": "Orchestrator",
+  "trait": "Orchestrator",
   "state": "lack",
   "overlap": 0.1
  },
  {
   "text": "היי, יש לי שלושה ילדים בשלוש פעילויות שונות ביום רביעי ואני פשוט לא מצליחה לסדר את זה. אין לי מושג איפה להתחיל.",
-  "strength": "Orchestrator",
+  "trait": "Orchestrator",
   "state": "lack",
   "overlap": 0.13
  },
  {
   "text": "שלום, אני מנסה לארגן את המחסן אבל כל מה שאני עושה רק מבלגן יותר. אפשר לקבל ממכם עצה איך ניגשים לזה?",
-  "strength": "Orchestrator",
+  "trait": "Orchestrator",
   "state": "lack",
   "overlap": 0.2
  },
  {
   "text": "השארנו את החלוקה של המשמרות כמו שהיא, היא עובדת טוב. אם מישהו יתקע איתה נחזור לדבר.",
-  "strength": "Orchestrator",
+  "trait": "Orchestrator",
   "state": "balanced",
   "overlap": 0.08
  },
  {
   "text": "הארון במטבח מסודר כמו שרציתי, אז לא נוגעת בו. אזיז משהו רק אם יתחיל להפריע לי.",
-  "strength": "Orchestrator",
+  "trait": "Orchestrator",
   "state": "balanced",
   "overlap": 0.07
  },
  {
   "text": "היי, הסידור של הפגישות השבוע נראה לי סבבה, נישאר איתו. נעדכן רק אם יצוץ משהו דחוף.",
-  "strength": "Orchestrator",
+  "trait": "Orchestrator",
   "state": "balanced",
   "overlap": 0.11
  },
  {
   "text": "שוב הזזתי את כל הרהיטים בסלון, זו הפעם הרביעית החודש. עדיין לא מרגיש לי נכון, אולי מחר אנסה משהו אחר.",
-  "strength": "Orchestrator",
+  "trait": "Orchestrator",
   "state": "excess",
   "overlap": 0.17
  },
  {
   "text": "חבר'ה, שיניתי את הטבלה של המשימות שוב, סליחה על הבלגן. אני כבר רואה דרך יותר טובה, אז תחכו עוד רגע עם העדכון.",
-  "strength": "Orchestrator",
+  "trait": "Orchestrator",
   "state": "excess",
   "overlap": 0.09
  },
  {
   "text": "קניתי עוד קופסאות אחסון כי החלטתי לסדר את הכל מחדש, שוב. כל פעם שאני גומר אני מוצא עוד רעיון ומתחיל מהתחלה.",
-  "strength": "Orchestrator",
+  "trait": "Orchestrator",
   "state": "excess",
   "overlap": 0.11
  },
  {
   "text": "סליחה על האיחור, שוב. לא מצאתי את המפתחות ובסוף גם שכחתי שקבעתי איתך בכלל.",
-  "strength": "Order",
+  "trait": "Order",
   "state": "lack",
   "overlap": 0.07
  },
  {
   "text": "היי, אפשר לקבל עוד יומיים להגשה? יש לי ערימה של דברים פתוחים ואני לא יודע מאיפה להתחיל.",
-  "strength": "Order",
+  "trait": "Order",
   "state": "lack",
   "overlap": 0.16
  },
  {
   "text": "אני מזמין מהסופר כבר שלוש פעמים אותו דבר כי אין לי מושג מה יש במקרר. הבית אצלי פשוט בלגן מוחלט.",
-  "strength": "Order",
+  "trait": "Order",
   "state": "lack",
   "overlap": 0.11
  },
  {
   "text": "אני בדרך כלל מכין רשימה לפני הקניות, אבל אם יש מבצע על משהו אחר אקפוץ עליו, אין בעיה.",
-  "strength": "Order",
+  "trait": "Order",
   "state": "balanced",
   "overlap": 0.08
  },
  {
   "text": "נתקעתי בפקק אז נזיז את הפגישה לרבע שעה אחרי? אני אעדכן את שאר הצוות, ושום דבר לא יתפרק.",
-  "strength": "Order",
+  "trait": "Order",
   "state": "balanced",
   "overlap": 0.08
  },
  {
   "text": "יש לי שעות קבועות ללימודים, אבל אם חברים מזמינים אותי לקפה בצהריים אני פשוט מזיז ומשלים בערב.",
-  "strength": "Order",
+  "trait": "Order",
   "state": "balanced",
   "overlap": 0.13
  },
  {
   "text": "אפשר לא להזיז לי את התור מ-8:15? כל היום שלי בנוי סביבו ואני פשוט לא מסוגל להתחיל אחרת.",
-  "strength": "Order",
+  "trait": "Order",
   "state": "excess",
   "overlap": 0.17
  },
  {
   "text": "הם שינו לנו את סידור הישיבות ברגע האחרון ועכשיו אני לא מצליח להתרכז בכלל. כל הבוקר התפרק לי.",
-  "strength": "Order",
+  "trait": "Order",
   "state": "excess",
   "overlap": 0.15
  },
  {
   "text": "ביקשתי שהמשלוח יגיע בדיוק ב-10:00 כמו תמיד, ועכשיו הם אומרים 'בין 10 ל-12'. זה לא עובד לי, אני לא יכול ככה.",
-  "strength": "Order",
+  "trait": "Order",
   "state": "excess",
   "overlap": 0.15
  },
  {
   "text": "היי, קיבלתי שלוש הצעות עבודה ואני פשוט קפוא. אין לי שום מושג מאיפה להתחיל לבחור, הכל מתערבב לי בראש.",
-  "strength": "Path Finder",
+  "trait": "Path Finder",
   "state": "lack",
   "overlap": 0.14
  },
  {
   "text": "תקשיבי, הלכתי לאיבוד בכל הניירת של המשכנתא. כל בנק אומר משהו אחר ואני לא יודע איזה כיוון לקחת.",
-  "strength": "Path Finder",
+  "trait": "Path Finder",
   "state": "lack",
   "overlap": 0.07
  },
  {
   "text": "שלום, הילד שלי נכשל בשני מקצועות ואני לא מצליחה להבין מה הצעד הבא. מישהו יכול לכוון אותי?",
-  "strength": "Path Finder",
+  "trait": "Path Finder",
   "state": "lack",
   "overlap": 0.1
  },
  {
   "text": "בדקתי את הכול: אם הרכבת מתעכבת, יש לי אוטובוס מהתחנה ליד. אז סגור, יוצאים ב-8 ואם צריך משנים תוך דקה.",
-  "strength": "Path Finder",
+  "trait": "Path Finder",
   "state": "balanced",
   "overlap": 0.13
  },
  {
   "text": "יש לנו שתי אפשרויות לפרויקט, אני מעדיף את השנייה כי היא פחות תלויה בספק. ואם משהו משתבש, כבר יש לי גיבוי, אז בוא נתחיל כבר היום.",
-  "strength": "Path Finder",
+  "trait": "Path Finder",
   "state": "balanced",
   "overlap": 0.1
  },
  {
   "text": "היי, ראיתי שהמשלוח יתעכב אז הזמנתי גם מחנות אחרת שתגיע בזמן. מי שיגיע ראשון, שומרים אותו ומחזירים את השני.",
-  "strength": "Path Finder",
+  "trait": "Path Finder",
   "state": "balanced",
   "overlap": 0.06
  },
  {
   "text": "חצי שעה אני מתכנן איך לסדר את החדר, עם שלוש תוכניות גיבוי, ועוד לא הזזתי אפילו קופסה אחת. אולי באמת צריך פשוט להתחיל.",
-  "strength": "Path Finder",
+  "trait": "Path Finder",
   "state": "excess",
   "overlap": 0.14
  },
  {
   "text": "אנחנו כבר שלוש פגישות מנתחים כל תרחיש אפשרי לקמפיין ולא שלחנו כלום. אני מרגיש שהחפרנו עם התכנונים.",
-  "strength": "Path Finder",
+  "trait": "Path Finder",
   "state": "excess",
   "overlap": 0.07
  },
  {
   "text": "רק רציתי לקנות מקרר, אבל כבר עשרים דקות אני משווה אפשרויות ובודק מה יקרה אם הוא יתקלקל בעוד שבע שנים. אני צריך מישהו שיגיד לי פשוט לקחת אחד.",
-  "strength": "Path Finder",
+  "trait": "Path Finder",
   "state": "excess",
   "overlap": 0.11
  },
  {
   "text": "שלחתי לכל הצוות אותו מייל מוכן, בלי לחשוב יותר מדי. מה זה משנה מי קורא, זה חוסך לי זמן.",
-  "strength": "Person Spotter",
+  "trait": "Person Spotter",
   "state": "lack",
   "overlap": 0.14
  },
  {
   "text": "אמא, אני לא מסתבך עם הילדים, כולם מקבלים אותו דבר לארוחת ערב. מי שלא אוהב, שלא יאכל.",
-  "strength": "Person Spotter",
+  "trait": "Person Spotter",
   "state": "lack",
   "overlap": 0.19
  },
  {
   "text": "היי, אפשר פשוט את הטופס הסטנדרטי? לא צריך להתאים שום דבר, תנו לכולם את אותה חבילה.",
-  "strength": "Person Spotter",
+  "trait": "Person Spotter",
   "state": "lack",
   "overlap": 0.16
  },
  {
   "text": "שיבצתי את דנה על הלקוחות הקשוחים כי היא רגועה מול לחץ, ואת רועי על הדוחות כי הוא מדויק. הכללים והשעות נשארים אותו דבר לכולם.",
-  "strength": "Person Spotter",
+  "trait": "Person Spotter",
   "state": "balanced",
   "overlap": 0.13
  },
  {
   "text": "עם הבן הגדול אני מדבר ישר ולעניין, ועם הקטנה צריך יותר עדינות. אבל שניהם יודעים שיש אותם גבולות בבית.",
-  "strength": "Person Spotter",
+  "trait": "Person Spotter",
   "state": "balanced",
   "overlap": 0.12
  },
  {
   "text": "הכיתה שלי מגוונת, אז הכנתי לכל תלמיד דרך קצת אחרת להגיש את העבודה. הקריטריונים לציון נשארים זהים לכולם.",
-  "strength": "Person Spotter",
+  "trait": "Person Spotter",
   "state": "balanced",
   "overlap": 0.08
  },
  {
   "text": "נכנסתי להתאים לכל אחד בצוות משהו אחר, ועכשיו אף אחד לא יודע מה הכללים. אני בעצמי כבר לא זוכר מה סיכמתי עם מי.",
-  "strength": "Person Spotter",
+  "trait": "Person Spotter",
   "state": "excess",
   "overlap": 0.19
  },
  {
   "text": "הבטחתי לכל לקוח בדיוק מה שהוא ביקש, ועכשיו יש לי עשרה סידורים שונים ואני טובע. ככה אי אפשר לעבוד.",
-  "strength": "Person Spotter",
+  "trait": "Person Spotter",
   "state": "excess",
   "overlap": 0.11
  },
  {
   "text": "כל אחד מהחברים בקבוצה קיבל ממני תוכנית אחרת לטיול, והתבלבלתי לגמרי. מישהו מתלונן שזה לא הוגן.",
-  "strength": "Person Spotter",
+  "trait": "Person Spotter",
   "state": "excess",
   "overlap": 0.09
  },
  {
   "text": "נו, השארתי את הקובץ כמו שהוא, מספיק שזה עובד. אף אחד לא יבדוק את זה לעומק.",
-  "strength": "Polisher",
+  "trait": "Polisher",
   "state": "lack",
   "overlap": 0.16
  },
  {
   "text": "היי, הכנתי בערב משהו מהר מהמה שהיה במקרר, יצא בסדר, לא משנה. אני לא מתאמץ יותר מדי על אוכל.",
-  "strength": "Polisher",
+  "trait": "Polisher",
   "state": "lack",
   "overlap": 0.2
  },
  {
   "text": "בבית ספר אמרו לי שאפשר להגיש מחדש ולשפר, אבל נשארתי עם הציון. 70 זה גם ציון, לא?",
-  "strength": "Polisher",
+  "trait": "Polisher",
   "state": "lack",
   "overlap": 0.08
  },
  {
   "text": "שלחתי ללקוח את ההצעה אחרי שהחלפתי את העיצוב של העמוד הראשון. את השאר השארתי, זה כבר מספיק טוב ואין טעם לשבת על זה עוד שבוע.",
-  "strength": "Polisher",
+  "trait": "Polisher",
   "state": "balanced",
   "overlap": 0.1
  },
  {
   "text": "הקשבתי שוב להקלטה של ההרצאה, תיקנתי שני קטעים שהרגישו לי חלשים ושחררתי. עכשיו אני גאה בה.",
-  "strength": "Polisher",
+  "trait": "Polisher",
   "state": "balanced",
   "overlap": 0.07
  },
  {
   "text": "בחרתי את המכונת כביסה הזאת אחרי שהשוויתי שלושה דגמים. לא הכי יקרה, אבל היא עושה בדיוק מה שאני צריך ועושה את זה מצוין.",
-  "strength": "Polisher",
+  "trait": "Polisher",
   "state": "balanced",
   "overlap": 0.13
  },
  {
   "text": "עוד לא שלחתי את המצגת, יש יישור קטן בשקף 14 שמפריע לי. אני יושב על זה כבר שלוש שעות ולא נרגע.",
-  "strength": "Polisher",
+  "trait": "Polisher",
   "state": "excess",
   "overlap": 0.07
  },
  {
   "text": "החזרתי לחנות את הספה בפעם השנייה כי הגוון קצת שונה מהתמונה. אני מעדיף לחכות עוד חודש מאשר להתפשר.",
-  "strength": "Polisher",
+  "trait": "Polisher",
   "state": "excess",
   "overlap": 0.08
  },
  {
   "text": "הגשתי את העבודה באיחור כי המשכתי לשכתב את הפסקה הראשונה. מרגיש לי שכל עוד זה לא בול, אי אפשר לשלוח.",
-  "strength": "Polisher",
+  "trait": "Polisher",
   "state": "excess",
   "overlap": 0.09
  },
  {
   "text": "היי, התחלתי היום בצוות ואני לא יודע מה כבר ניסו עם הלקוח הזה, אז קשה לי להגיד אם הרעיון שלך יעבוד.",
-  "strength": "Rooted",
+  "trait": "Rooted",
   "state": "lack",
   "overlap": 0.12
  },
  {
   "text": "שלום, קיבלתי את המכשיר ביד שנייה ואין לי שום מושג אם הוא תוקן פעם. אפשר לברר מה עבר עליו לפני שאני מחליט?",
-  "strength": "Rooted",
+  "trait": "Rooted",
   "state": "lack",
   "overlap": 0.15
  },
  {
   "text": "אמא, את יודעת אם הייתה לנו פעם בעיה כזו בצנרת? אין לי מושג מה עשו בבית הזה לפני שנכנסנו, אז אני לא יודע מאיפה להתחיל.",
-  "strength": "Rooted",
+  "trait": "Rooted",
   "state": "lack",
   "overlap": 0.21
  },
  {
   "text": "לפני שנחליט על הקמפיין, בואו נציץ מה עבד לנו ברבעון שעבר. אבל השוק השתנה, אז אני חושב שכדאי לנסות גם משהו חדש.",
-  "strength": "Rooted",
+  "trait": "Rooted",
   "state": "balanced",
   "overlap": 0.16
  },
  {
   "text": "הרופא ביקש לראות את התוצאות מהשנים האחרונות, אז אני מעלה אותן למערכת. ואם הטיפול הקודם לא עזר, אני בעד לנסות גישה אחרת.",
-  "strength": "Rooted",
+  "trait": "Rooted",
   "state": "balanced",
   "overlap": 0.12
  },
  {
   "text": "הילד שלי התקשה בחשבון גם בשנה שעברה, אז בדקתי מה עזר לו אז. השיטה הזו כבר לא מתאימה לו, אז אני מחפש משהו אחר.",
-  "strength": "Rooted",
+  "trait": "Rooted",
   "state": "balanced",
   "overlap": 0.1
  },
  {
   "text": "תמיד עבדנו עם אותו ספק ואף פעם לא היו בעיות. אני לא מוכן להחליף אותו גם אם ההצעה החדשה זולה יותר.",
-  "strength": "Rooted",
+  "trait": "Rooted",
   "state": "excess",
   "overlap": 0.1
  },
  {
   "text": "אני לא מעוניין בשדרוג לתוכנה החדשה. אני רוצה לעבוד כמו שעבדנו עשר שנים, כי זה מה שהוכיח את עצמו.",
-  "strength": "Rooted",
+  "trait": "Rooted",
   "state": "excess",
   "overlap": 0.1
  },
  {
   "text": "אני חייב לחפור בארכיון ולבדוק מה היה כאן לפני עשרים שנה לפני שאני זז. בלי זה אני לא מסכים לשנות אפילו את סדר השולחנות במשרד.",
-  "strength": "Rooted",
+  "trait": "Rooted",
   "state": "excess",
   "overlap": 0.1
  },
  {
   "text": "קיבלתי את הפרויקט החדש לפני שבוע והמסמך עדיין ריק. אני פשוט לא מבינה מאיפה נכנסים לזה.",
-  "strength": "Starter",
+  "trait": "Starter",
   "state": "lack",
   "overlap": 0.07
  },
  {
   "text": "רציתי לסדר את הארון כבר חודש, אבל כל פעם שאני עומד מולו אני סוגר את הדלת והולך לראות טלוויזיה.",
-  "strength": "Starter",
+  "trait": "Starter",
   "state": "lack",
   "overlap": 0.09
  },
  {
   "text": "קבעתי לעצמי לצאת לרוץ, אבל אין לי מושג איך נכנסים לזה, אז אני נשארת במיטה.",
-  "strength": "Starter",
+  "trait": "Starter",
   "state": "lack",
   "overlap": 0.12
  },
  {
   "text": "יאללה, אני פותח היום את הדף הראשון של המצגת. תגידו לי אם משהו לא ברור ונסדר את זה ביחד לפני שממשיכים.",
-  "strength": "Starter",
+  "trait": "Starter",
   "state": "balanced",
   "overlap": 0.08
  },
  {
   "text": "הצעתי לילדים לצאת לטיול כבר בשבת, אבל שאלתי קודם אם זה נוח לכולם ומי צריך עוד קצת זמן להתארגן.",
-  "strength": "Starter",
+  "trait": "Starter",
   "state": "balanced",
   "overlap": 0.09
  },
  {
   "text": "אני רוצה להזמין כבר היום את המטבח, רק אחכה שבעלי יסתכל על ההצעה כדי שנהיה באותו עמוד.",
-  "strength": "Starter",
+  "trait": "Starter",
   "state": "balanced",
   "overlap": 0.1
  },
  {
   "text": "שלחתי ללקוח את ההצעה בלי להראות לאף אחד, ועוד מתפלאים למה כולם איטיים כל כך.",
-  "strength": "Starter",
+  "trait": "Starter",
   "state": "excess",
   "overlap": 0.28
  },
  {
   "text": "צבעתי את הסלון בסוף שבוע אחד, ובן הזוג שלי עדיין בודק גוונים באינטרנט. מה כל כך מסובך?",
-  "strength": "Starter",
+  "trait": "Starter",
   "state": "excess",
   "overlap": 0.1
  },
  {
   "text": "חילקתי בקבוצה את המשימות וסיימתי את החלק שלי, והם עדיין שואלים שאלות. נמאס לי לגרור אותם.",
-  "strength": "Starter",
+  "trait": "Starter",
   "state": "excess",
   "overlap": 0.09
  },
  {
   "text": "היי, ניסיתי לכתוב לך הודעה על מה שקרה בפגישה אבל כל פעם זה יוצא לי עקום. אולי נדבר בטלפון?",
-  "strength": "Storyteller",
+  "trait": "Storyteller",
   "state": "lack",
   "overlap": 0.08
  },
  {
   "text": "אני רוצה להגיש תלונה על ההזמנה, אבל אני פשוט תקוע, לא מצליח לנסח את זה כמו שצריך. אפשר שתעזרו לי עם זה?",
-  "strength": "Storyteller",
+  "trait": "Storyteller",
   "state": "lack",
   "overlap": 0.15
  },
  {
   "text": "הרופאה שאלה אותי איפה בדיוק כואב ומה אני מרגיש, ופשוט נאלמתי. יצא לי רק 'סתם לא נעים' וזהו.",
-  "strength": "Storyteller",
+  "trait": "Storyteller",
   "state": "lack",
   "overlap": 0.08
  },
  {
   "text": "הסברתי לצוות בשתי דקות איך המערכת עובדת, ראיתי שכולם מהנהנים ועברתי לנושא הבא.",
-  "strength": "Storyteller",
+  "trait": "Storyteller",
   "state": "balanced",
   "overlap": 0.1
  },
  {
   "text": "כתבתי לשירות הלקוחות שני משפטים ברורים: מה הזמנתי, מה הגיע ומה אני מבקש. הם ענו תוך שעה.",
-  "strength": "Storyteller",
+  "trait": "Storyteller",
   "state": "balanced",
   "overlap": 0.14
  },
  {
   "text": "סיפרתי לבן שלי איך הרגשתי ביום הראשון בכיתה א', הוא חייך ואמר 'הבנתי', אז עצרתי שם ולא המשכתי.",
-  "strength": "Storyteller",
+  "trait": "Storyteller",
   "state": "balanced",
   "overlap": 0.07
  },
  {
   "text": "סליחה שזה יצא ארוך, אבל רציתי להוסיף עוד דוגמה ועוד סיפור קטן שיחזק את מה שאמרתי, ועוד משהו שנזכרתי בו...",
-  "strength": "Storyteller",
+  "trait": "Storyteller",
   "state": "excess",
   "overlap": 0.08
  },
  {
   "text": "כולם בישיבה כבר אמרו 'כן, הבנו', ואני עדיין הסברתי את אותו רעיון בשלישית, רק במילים אחרות.",
-  "strength": "Storyteller",
+  "trait": "Storyteller",
   "state": "excess",
   "overlap": 0.12
  },
  {
   "text": "כתבתי לנציג בצ'אט פסקה אחרי פסקה על הבעיה עם המכשיר, והוא כבר ענה שהוא מזמין לי החלפה, ואני עדיין המשכתי להסביר.",
-  "strength": "Storyteller",
+  "trait": "Storyteller",
   "state": "excess",
   "overlap": 0.13
  },
  {
   "text": "נו, תחליטו אתם איפה לאכול, לי זה לא משנה. אני אסתדר עם מה שיהיה.",
-  "strength": "Take-Charge",
+  "trait": "Take-Charge",
   "state": "lack",
   "overlap": 0.22
  },
  {
   "text": "ראיתי שהחשבונית שלי חויבה פעמיים, אבל לא נורא, אולי זה יסתדר לבד. לא רוצה להטריד אף אחד.",
-  "strength": "Take-Charge",
+  "trait": "Take-Charge",
   "state": "lack",
   "overlap": 0.07
  },
  {
   "text": "בישיבה כולם התחילו לצעוק וההצעה שלי נשמעה לי הגיונית, אבל שתקתי. ניסיתי לחכות שמישהו אחר יגיד משהו.",
-  "strength": "Take-Charge",
+  "trait": "Take-Charge",
   "state": "lack",
   "overlap": 0.08
  },
  {
   "text": "שמעתי את כולם, אז הנה מה שאני מציע: נתחיל מהלקוח הגדול ונדחה את השאר. אם יש למישהו רעיון טוב יותר, אני פתוח לשמוע.",
-  "strength": "Take-Charge",
+  "trait": "Take-Charge",
   "state": "balanced",
   "overlap": 0.08
  },
  {
   "text": "אני אנהל את הפגישה מחר כי יש לי את כל הנתונים, אבל את ההצגה ללקוח עדיף שדנה תעשה, היא מכירה אותו הרבה יותר טוב.",
-  "strength": "Take-Charge",
+  "trait": "Take-Charge",
   "state": "balanced",
   "overlap": 0.1
  },
  {
   "text": "תגידי לי בכנות, ההצעה הזאת לא עובדת לי ואני אסביר למה. אבל אם יש לך פתרון אחר, בוא נבדוק גם אותו.",
-  "strength": "Take-Charge",
+  "trait": "Take-Charge",
   "state": "balanced",
   "overlap": 0.18
  },
  {
   "text": "כבר סידרתי לכולם את הלו\"ז לשבוע הבא, פשוט תעשו מה שכתבתי. אין צורך לשאול שאלות.",
-  "strength": "Take-Charge",
+  "trait": "Take-Charge",
   "state": "excess",
   "overlap": 0.05
  },
  {
   "text": "אמרתי למנהל המשמרת שהוא מנהל את הצוות לא נכון ושיעבוד לפי הסדר שלי. נכון, לא ביקשו ממני, אבל מישהו חייב.",
-  "strength": "Take-Charge",
+  "trait": "Take-Charge",
   "state": "excess",
   "overlap": 0.12
  },
  {
   "text": "אמא, עזבי את הרופא, אני כבר בדקתי הכול והחלטתי איזה טיפול עושים. פשוט תבואי איתי ואל תתווכחי.",
-  "strength": "Take-Charge",
+  "trait": "Take-Charge",
   "state": "excess",
   "overlap": 0.07
  },
  {
   "text": "עובד פה שנתיים ואני כבר לא מבין בשביל מה. עושה מה שאומרים לי ומחכה שהיום ייגמר.",
-  "strength": "Values-Driven",
+  "trait": "Values-Driven",
   "state": "lack",
   "overlap": 0.18
  },
  {
   "text": "אחי, אין לי כוח לכלום. הכל נראה לי אותו דבר, לא משנה מה אני עושה.",
-  "strength": "Values-Driven",
+  "trait": "Values-Driven",
   "state": "lack",
   "overlap": 0.26
  },
  {
   "text": "נרשמתי ללימודים רק כי כולם נרשמו. בכנות, אין לי מושג מה אני עושה פה.",
-  "strength": "Values-Driven",
+  "trait": "Values-Driven",
   "state": "lack",
   "overlap": 0.25
  },
  {
   "text": "אני לא מוכר ללקוחות דברים שאני יודע שלא יעבדו להם. אבל אני כן מוכן לשנות את התנאים כדי שנגיע לעסקה הוגנת.",
-  "strength": "Values-Driven",
+  "trait": "Values-Driven",
   "state": "balanced",
   "overlap": 0.14
  },
  {
   "text": "אני מעדיף לשלם קצת יותר על מוצר שיוצר בהגינות. אבל אם אין במלאי, אקח את החלופה הסבירה ולא אעשה מזה סיפור.",
-  "strength": "Values-Driven",
+  "trait": "Values-Driven",
   "state": "balanced",
   "overlap": 0.13
  },
  {
   "text": "אמרתי לרופא שאני לא מוכן לחתום על אישור מחלה שלא נכון. הצעתי שנחפש פתרון אחר שיתאים לכולם.",
-  "strength": "Values-Driven",
+  "trait": "Values-Driven",
   "state": "balanced",
   "overlap": 0.11
  },
  {
   "text": "אני לא נוגע בפרויקט הזה, החברה שמאחוריו עושה דברים בעייתיים. גם אם אפסיד את הבונוס, נקודה.",
-  "strength": "Values-Driven",
+  "trait": "Values-Driven",
   "state": "excess",
   "overlap": 0.19
  },
  {
   "text": "ביטלתי את ההגעה לחתונה כי החתן סיפר בדיחות על מיעוטים. מבחינתי זה סוף הסיפור, ולא מעניין אותי שכולם כועסים עליי.",
-  "strength": "Values-Driven",
+  "trait": "Values-Driven",
   "state": "excess",
   "overlap": 0.1
  },
  {
   "text": "אני רוצה לבטל את ההזמנה. גיליתי שאתם עובדים עם קבלן שלא עומד בסטנדרטים שלי, ואין מצב שאקנה, גם אם זה בחצי מחיר.",
-  "strength": "Values-Driven",
+  "trait": "Values-Driven",
   "state": "excess",
   "overlap": 0.2
  },
  {
   "text": "וואלה אין לי מושג מה אני רוצה לעשות עוד שנתיים, אז פשוט זורם עם מה שיש. נמאס לי לשאול את עצמי לאן כל זה מוביל.",
-  "strength": "Visionary",
+  "trait": "Visionary",
   "state": "lack",
   "overlap": 0.19
  },
  {
   "text": "שאלו אותי בראיון איפה אני רואה את עצמי בעוד כמה שנים והסתכלתי עליהם בריקנות. באמת שאין לי תשובה, ואין לי גם חשק לחשוב על זה.",
-  "strength": "Visionary",
+  "trait": "Visionary",
   "state": "lack",
   "overlap": 0.12
  },
  {
   "text": "היי, אני מחפשת מתנה לבת שלי אבל אין לי מושג מה יעניין אותה כשתגדל. בכלל קשה לי לדמיין איך הדברים ייראו, אז אני קונה מה שבא לי ונגמר.",
-  "strength": "Visionary",
+  "trait": "Visionary",
   "state": "lack",
   "overlap": 0.14
  },
  {
   "text": "התחלתי לתכנן איך נרחיב את הצוות בשנה הבאה, אבל קודם סגרתי את ההצעות שמחכות לי להיום. מרגיש טוב לראות גם את התמונה הגדולה וגם לסיים מה שצריך.",
-  "strength": "Visionary",
+  "trait": "Visionary",
   "state": "balanced",
   "overlap": 0.07
  },
  {
   "text": "אני חולם על בית עם גינה בעוד כמה שנים, ובינתיים שמים כל חודש בצד ומסדרים את הדירה הקיימת. אפשר לעשות שני דברים במקביל, התברר לי.",
-  "strength": "Visionary",
+  "trait": "Visionary",
   "state": "balanced",
   "overlap": 0.09
  },
  {
   "text": "היי, אשמח לדגם שיתאים גם לשנים הבאות כשהילדים יגדלו, אבל אני צריך משהו שיעבוד כבר מחר בבוקר. מה אתם ממליצים?",
-  "strength": "Visionary",
+  "trait": "Visionary",
   "state": "balanced",
   "overlap": 0.08
  },
  {
   "text": "ישבתי בפגישה ובמקום לענות על השאלה על התקציב של החודש התחלתי לספר איך החברה תיראה בעוד עשור. המנהלת הסתכלה עליי כאילו נפלתי מהירח.",
-  "strength": "Visionary",
+  "trait": "Visionary",
   "state": "excess",
   "overlap": 0.04
  },
  {
   "text": "שוב שכחתי לשלם חשבון חשמל כי כל הערב ישבתי וציירתי תוכניות לעסק שאולי אפתח פעם. הדברים הקטנים של היום פשוט חולפים לי מעל הראש.",
-  "strength": "Visionary",
+  "trait": "Visionary",
   "state": "excess",
   "overlap": 0.05
  },
  {
   "text": "אחי, חצי שעה דיברתי עם המורה על איך החינוך ישתנה בעוד 20 שנה, ושכחתי לשאול מה הבן שלי צריך להשלים השבוע. אני כל הזמן הולך רחוק מדי.",
-  "strength": "Visionary",
+  "trait": "Visionary",
   "state": "excess",
   "overlap": 0.07
  },
  {
   "text": "נו, לא נורא שדנה לא קיבלה הזמנה לארוחה, אי אפשר להושיב את כל המשרד על שולחן אחד.",
-  "strength": "Welcomer",
+  "trait": "Welcomer",
   "state": "lack",
   "overlap": 0.11
  },
  {
   "text": "בקבוצת ההורים של הכיתה כבר יש מספיק אנשים, אין טעם להוסיף את ההורים של הילד החדש, שיסתדרו לבד.",
-  "strength": "Welcomer",
+  "trait": "Welcomer",
   "state": "lack",
   "overlap": 0.11
  },
  {
   "text": "אמרתי לך, תמיד יהיה מישהו שלא יגיע לאירוע. מה אני אמור לעשות, לרדוף אחרי כולם?",
-  "strength": "Welcomer",
+  "trait": "Welcomer",
   "state": "lack",
   "overlap": 0.12
  },
  {
   "text": "הוספתי את יוסי לשרשור כי ראיתי שהוא שותק בפגישות, אבל את ההחלטה הסופית נסגור שלושתנו מחר בבוקר.",
-  "strength": "Welcomer",
+  "trait": "Welcomer",
   "state": "balanced",
   "overlap": 0.08
  },
  {
   "text": "אני רוצה שכל הכיתה תרגיש חלק מהטיול, אז נעשה הצבעה על היעד. את התכנון של האוטובוסים ייקחו רק שני הורים.",
-  "strength": "Welcomer",
+  "trait": "Welcomer",
   "state": "balanced",
   "overlap": 0.06
  },
  {
   "text": "שלחתי הזמנה לכל המחלקה לאירוע, ואת הסדנה עצמה נעשה בקבוצה קטנה כדי שיהיה אפשר באמת לעבוד.",
-  "strength": "Welcomer",
+  "trait": "Welcomer",
   "state": "balanced",
   "overlap": 0.13
  },
  {
   "text": "חיכיתי לעוד תשובות מכל 25 האנשים בקבוצה, ובינתיים עדיין לא סגרנו מקום לארוחה. אולי נשאל גם את מי שיצא מהקבוצה?",
-  "strength": "Welcomer",
+  "trait": "Welcomer",
   "state": "excess",
   "overlap": 0.11
  },
  {
   "text": "אני לא מוכנה להחליט על הצבע של הסלון לפני ששמעתי את כל המשפחה, גם את הדודה מקנדה והשכנים מלמטה.",
-  "strength": "Welcomer",
+  "trait": "Welcomer",
   "state": "excess",
   "overlap": 0.11
  },
  {
   "text": "כבר שבועיים אנחנו מחכים שעוד כמה עובדים יגיבו לטופס, ואני מפחד לקבוע בלי שכולם יסכימו. אולי נשלח תזכורת שלישית?",
-  "strength": "Welcomer",
+  "trait": "Welcomer",
   "state": "excess",
   "overlap": 0.12
  }

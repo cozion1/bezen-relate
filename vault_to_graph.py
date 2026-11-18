@@ -1,5 +1,5 @@
 # Any Obsidian vault -> a Relate graph, in one file.
-#   note            -> node, labelled by its top folder ("strengths" -> :Strength)
+#   note            -> node, labelled by its top folder ("traits" -> :Trait)
 #   key:: [[x]]     -> typed edge (note)-[:KEY]->(x)
 #   [[x]]           -> (note)-[:LINKS]->(x)
 #   "> quote" under "## heading" -> (note)-[:HEADING]->(:Sentence {text})

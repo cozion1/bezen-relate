@@ -1,10 +1,10 @@
-# Builds a larger test set: for every strength and state, a model writes everyday Hebrew messages
-# a real person might send, WITHOUT reusing the words of the strength sentences. Then a lexical filter
+# Builds a larger test set: for every trait and state, a model writes everyday Hebrew messages
+# a real person might send, WITHOUT reusing the words of the trait sentences. Then a lexical filter
 # drops any message that still overlaps too much, so the test measures meaning, not word copying.
 # Needs ANTHROPIC_API_KEY. Output: cases_generated.json
 import json, os, re, urllib.request, concurrent.futures as cf
 
-VAULT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "sample_vault", "strengths")
+VAULT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "sample_vault", "traits")
 PER_STATE = int(os.environ.get("PER_STATE", "3"))
 MODEL = os.environ.get("GEN_MODEL", "claude-sonnet-5-5")
 
@@ -19,11 +19,11 @@ def note(name):
     return open(os.path.join(VAULT, name + ".md"), encoding="utf-8").read()
 
 def gen(name):
-    prompt = (f"Here is a description of a human strength and its three states:\n\n{note(name)}\n\n"
+    prompt = (f"Here is a description of a human trait and its three states:\n\n{note(name)}\n\n"
               f"Write {PER_STATE} different short messages in everyday Israeli Hebrew for EACH state (lack, balanced, excess): "
               "things a real person might write to a friend, a colleague, a shop or a support chat, in which that state shows. "
               "Rules: do NOT reuse the distinctive words of the description or of the quoted state sentences; "
-              "vary the setting (work, home, shopping, school, health); 1-2 sentences each; no names of the strength. "
+              "vary the setting (work, home, shopping, school, health); 1-2 sentences each; no names of the trait. "
               'Answer only JSON: {"lack": ["..."], "balanced": ["..."], "excess": ["..."]}')
     out = call(prompt)
     d = json.loads(re.search(r"\{.*\}", out, re.S).group(0))
@@ -43,6 +43,6 @@ if __name__ == "__main__":
         sentences = re.findall(r"^> (.*)$", note(name), re.M)
         overlap = max(len(grams(norm(t)) & grams(norm(s))) / (len(grams(norm(t))) or 1) for s in sentences)
         if overlap < 0.35:
-            kept.append({"text": t, "strength": name, "state": st, "overlap": round(overlap, 2)})
+            kept.append({"text": t, "trait": name, "state": st, "overlap": round(overlap, 2)})
     json.dump(kept, open("cases_generated.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     print(f"generated {len(cases)}, kept {len(kept)} after the overlap filter")

@@ -1,12 +1,12 @@
-# Puts the meaning into the graph: every line of every strength note becomes an (:Anchor {text, vec})
-# linked (:Strength)-[:ANCHOR]->(:Anchor), with a Relate vector index on Anchor.vec.
+# Puts the meaning into the graph: every line of every trait note becomes an (:Anchor {text, vec})
+# linked (:Trait)-[:ANCHOR]->(:Anchor), with a Relate vector index on Anchor.vec.
 # Usage: python index_anchors.py [graph file]
 import os, sys, time, relate
 from fastembed import TextEmbedding
 
 DB = sys.argv[1] if len(sys.argv) > 1 else "bezen.rl"
 MODEL = os.environ.get("BEZEN_MODEL", "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2")
-VAULT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "sample_vault", "strengths")
+VAULT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "sample_vault", "traits")
 
 items = []
 for f in os.listdir(VAULT):
@@ -23,10 +23,10 @@ vecs = list(TextEmbedding(MODEL).embed([x[2] for x in items]))
 dim = len(vecs[0])
 db = relate.Database(DB)
 db.execute("MATCH (a:Anchor) DETACH DELETE a")
-for (strength, section, text), v in zip(items, vecs):
-    db.execute(f"""MATCH (s:Strength {{name: $s}})
+for (trait, section, text), v in zip(items, vecs):
+    db.execute(f"""MATCH (s:Trait {{name: $s}})
                    CREATE (s)-[:ANCHOR]->(:Anchor {{text: $t, section: $sec, vec: vector($v, {dim}, FLOAT32)}})""",
-               {"s": strength, "t": text, "sec": section, "v": [float(x) for x in v]})
+               {"s": trait, "t": text, "sec": section, "v": [float(x) for x in v]})
 db.execute(f"""CREATE VECTOR INDEX anchor_vec IF NOT EXISTS FOR (a:Anchor) ON (a.vec)
                OPTIONS {{indexConfig: {{`vector.dimensions`: {dim}, `vector.similarity_function`: "cosine"}}}}""")
 db.flush()

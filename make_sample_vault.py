@@ -1,5 +1,5 @@
-# Builds the public sample vault: one Obsidian note per strength (32), per domain and per state.
-# Source: the public strengths page (bezenai.com/strengths). Nothing private goes in here.
+# Builds the public sample vault: one Obsidian note per trait (32), per domain and per state.
+# Source: the public traits page (bezenai.com/strengths). Nothing private goes in here.
 import json, os, re, subprocess, sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -14,7 +14,7 @@ data = json.loads(subprocess.run(["node", "-e", f"console.log(JSON.stringify({bl
                                  capture_output=True, text=True, encoding="utf-8", check=True).stdout)
 
 DOMAINS = {"think": "Thinking", "relate": "Relating", "exec": "Doing", "influence": "Leading"}
-for sub in ("strengths", "domains", "states"):
+for sub in ("traits", "domains", "states"):
     os.makedirs(os.path.join(VAULT, sub), exist_ok=True)
 
 safe = lambda s: re.sub(r'[\\/:*?"<>|]', "-", s).strip()
@@ -27,10 +27,10 @@ for s in data:
         lines += [f"## {key}"] + [f"- {x}" for x in s.get(key, [])] + [""]
     for state in ("lack", "balanced", "excess"):
         lines += [f"## {state}", f"state:: [[{state}]]", f"> {s[state]}", ""]
-    open(os.path.join(VAULT, "strengths", safe(s["en"]) + ".md"), "w", encoding="utf-8").write("\n".join(lines))
+    open(os.path.join(VAULT, "traits", safe(s["en"]) + ".md"), "w", encoding="utf-8").write("\n".join(lines))
 
 for d in domains:
     open(os.path.join(VAULT, "domains", d + ".md"), "w", encoding="utf-8").write(f"# {d}\n")
-for st, txt in (("lack", "Too little of the strength."), ("balanced", "The golden path."), ("excess", "Too much of the strength.")):
+for st, txt in (("lack", "Too little of the trait."), ("balanced", "The golden path."), ("excess", "Too much of the trait.")):
     open(os.path.join(VAULT, "states", st + ".md"), "w", encoding="utf-8").write(f"# {st}\n\n{txt}\n")
-print(f"{len(data)} strengths, {len(domains)} domains -> {VAULT}")
+print(f"{len(data)} traits, {len(domains)} domains -> {VAULT}")

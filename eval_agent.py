@@ -9,9 +9,9 @@ s_ok = full_ok = quotes = 0
 for text, want_s, want_state in CASES:
     cands = read_person.shortlist(text, read_person.K)
     a = read_person.decide(text, cands) or {}
-    ok_s = a.get("strength") == want_s
+    ok_s = a.get("trait") == want_s
     ok_full = ok_s and a.get("state") == want_state
     s_ok += ok_s; full_ok += ok_full; quotes += bool(a.get("quote_verified"))
-    print(f"{'V' if ok_full else ('~' if ok_s else 'X')}  want {want_s}/{want_state:<8} got {a.get('strength')}/{a.get('state')}"
+    print(f"{'V' if ok_full else ('~' if ok_s else 'X')}  want {want_s}/{want_state:<8} got {a.get('trait')}/{a.get('state')}"
           f"  quote {'ok' if a.get('quote_verified') else 'NOT FOUND'}")
-print(f"\nagent: strength {s_ok}/{len(CASES)}, strength+state {full_ok}/{len(CASES)}, quotes verified {quotes}/{len(CASES)}")
+print(f"\nagent: trait {s_ok}/{len(CASES)}, trait+state {full_ok}/{len(CASES)}, quotes verified {quotes}/{len(CASES)}")

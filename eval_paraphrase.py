@@ -1,5 +1,5 @@
-# Honest check: messages written in DIFFERENT words from the strength sentences.
-# Each case: (message, expected strength, expected state). Prints hit rate for strength and for strength+state.
+# Honest check: messages written in DIFFERENT words from the trait sentences.
+# Each case: (message, expected trait, expected state). Prints hit rate for trait and for trait+state.
 # Usage: python eval_paraphrase.py [graph file] [matcher: trigram|vector]
 import sys, importlib
 
@@ -16,4 +16,4 @@ for text, want_s, want_state in CASES:
     ok_s, ok_full = s == want_s, s == want_s and state == want_state
     s_hits += ok_s; full_hits += ok_full
     print(f"{'V' if ok_full else ('~' if ok_s else 'X')}  want {want_s}/{want_state:<8}  got {s}/{state}  ({score:.2f})")
-print(f"\n{mode}: strength {s_hits}/{len(CASES)}, strength+state {full_hits}/{len(CASES)}")
+print(f"\n{mode}: trait {s_hits}/{len(CASES)}, trait+state {full_hits}/{len(CASES)}")

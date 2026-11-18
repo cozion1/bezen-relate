@@ -1,3 +1,3 @@
 # excess
 
-Too much of the strength.
+Too much of the trait.

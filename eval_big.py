@@ -1,6 +1,6 @@
 # Big evaluation on cases_generated.json:
-#   step 1 alone: is the right strength in the graph shortlist (top 3 / top 8)?
-#   step 1 + 2:  does the agent pick the right strength, the right state, and a quote that is really in the message?
+#   step 1 alone: is the right trait in the graph shortlist (top 3 / top 8)?
+#   step 1 + 2:  does the agent pick the right trait, the right state, and a quote that is really in the message?
 # Needs ANTHROPIC_API_KEY for step 2. Usage: python eval_big.py [graph file]
 import json, sys, collections, concurrent.futures as cf
 sys.argv = [sys.argv[0], "-", sys.argv[1] if len(sys.argv) > 1 else "bezen.rl"]
@@ -8,7 +8,7 @@ import read_person
 
 cases = json.load(open("cases_generated.json", encoding="utf-8"))
 full = {i: read_person.shortlist(x["text"], read_person.K) for i, x in enumerate(cases)}   # graph reads stay on one thread
-short = {i: [c["strength"] for c in full[i]] for i in full}
+short = {i: [c["trait"] for c in full[i]] for i in full}
 
 def agent(i):
     x = cases[i]
@@ -23,17 +23,17 @@ with cf.ThreadPoolExecutor(6) as ex:
 n = len(cases); c = collections.Counter(); by_state = collections.defaultdict(lambda: [0, 0]); misses = collections.Counter()
 for i, x in enumerate(cases):
     a = answers[i]
-    c["top3"] += x["strength"] in short[i][:3]
-    c["top8"] += x["strength"] in short[i]
-    ok_s = a.get("strength") == x["strength"]; ok_full = ok_s and a.get("state") == x["state"]
-    c["strength"] += ok_s; c["full"] += ok_full; c["quote"] += bool(a.get("quote_verified")); c["errors"] += "error" in a
+    c["top3"] += x["trait"] in short[i][:3]
+    c["top8"] += x["trait"] in short[i]
+    ok_s = a.get("trait") == x["trait"]; ok_full = ok_s and a.get("state") == x["state"]
+    c["trait"] += ok_s; c["full"] += ok_full; c["quote"] += bool(a.get("quote_verified")); c["errors"] += "error" in a
     by_state[x["state"]][0] += ok_full; by_state[x["state"]][1] += 1
-    if not ok_s: misses[f"{x['strength']} -> {a.get('strength')}"] += 1
+    if not ok_s: misses[f"{x['trait']} -> {a.get('trait')}"] += 1
 
 pct = lambda k: f"{c[k]}/{n} = {c[k]/n:.0%}"
 print(f"cases {n}")
 print(f"graph shortlist  top-3 {pct('top3')}   top-K {pct("top8")}")
-print(f"agent strength   {pct('strength')}")
+print(f"agent trait   {pct('trait')}")
 print(f"agent str+state  {pct('full')}")
 print(f"quotes verified  {pct('quote')}   errors {c['errors']}")
 for st, (ok, tot) in sorted(by_state.items()):

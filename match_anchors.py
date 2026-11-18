@@ -1,13 +1,13 @@
-# Meaning-based matcher with many anchors per strength:
-#   every line in the strength note (description, characteristics, thinking, emotions, behaviors, beliefs, states)
-#   is one vector labelled with its strength. Strength = the strength whose top-3 anchors are closest on average.
-#   State = the closest of that strength's lack / balanced / excess sentences.
+# Meaning-based matcher with many anchors per trait:
+#   every line in the trait note (description, characteristics, thinking, emotions, behaviors, beliefs, states)
+#   is one vector labelled with its trait. Trait = the trait whose top-3 anchors are closest on average.
+#   State = the closest of that trait's lack / balanced / excess sentences.
 # BEZEN_MODEL may list several models, comma separated; their scores are averaged.
 import os, numpy as np
 from fastembed import TextEmbedding
 
 MODELS = os.environ.get("BEZEN_MODEL", "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2").split(",")
-VAULT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "sample_vault", "strengths")
+VAULT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "sample_vault", "traits")
 
 anchors, labels, states = [], [], {}
 for f in os.listdir(VAULT):
@@ -36,13 +36,13 @@ class Space:
 SPACES = [Space(m) for m in MODELS]
 
 def read(text):
-    strength_score = {n: 0.0 for n in NAMES}
+    trait_score = {n: 0.0 for n in NAMES}
     qs = [sp.embed([text])[0] for sp in SPACES]
     for sp, q in zip(SPACES, qs):
         sims = sp.A @ q
         for n in NAMES:
-            strength_score[n] += np.sort(sims[labels == n])[-3:].mean() / len(SPACES)
-    best = max(strength_score, key=strength_score.get)
+            trait_score[n] += np.sort(sims[labels == n])[-3:].mean() / len(SPACES)
+    best = max(trait_score, key=trait_score.get)
     state_sims = sum(sp.S[best] @ q for sp, q in zip(SPACES, qs)) / len(SPACES)
     i = int(state_sims.argmax())
-    return float(strength_score[best]), best, states[best][i][0], states[best][i][1]
+    return float(trait_score[best]), best, states[best][i][0], states[best][i][1]

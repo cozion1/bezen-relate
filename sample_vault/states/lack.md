@@ -1,3 +1,3 @@
 # lack
 
-Too little of the strength.
+Too little of the trait.
