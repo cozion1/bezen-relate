@@ -49,6 +49,12 @@ What keeps coming back, and the next helpful sentence:
   Dana: Evidence Seeker [Thinking], 3 messages, states ['balanced', 'lack', 'excess']
 ```
 
+## How it uses Relate
+
+**Mode: single file.** The whole memory lives in one Relate file, `bezen.rl`, at the repo root. It is committed, so judges can open it without running anything: traits, domains, sentences, 705 anchors with the vector index, and Dana's three messages with their readings. `python demo.py` rebuilds it from `sample_vault/`.
+
+Why single file: a person's memory should travel with the agent that serves them, like a document. One file can be copied, backed up, or kept on the user's own machine, and the private pattern library runs the same way locally without a server.
+
 ## How well it reads — measured, not claimed
 
 `gen_cases.py` had a model write **288 everyday Hebrew messages** (3 per state × 32 traits), each in different words from the trait sentences; a lexical filter drops any that copy them. `eval_big.py` then checks trait **and** state:
